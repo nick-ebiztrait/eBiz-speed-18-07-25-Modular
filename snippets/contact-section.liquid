@@ -1,0 +1,56 @@
+<div data-section-id="{{ section.id }}" data-section-type="contact-template">
+  {%- if banner -%}
+    <section class="banner banner-contact container-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="banner-inner">
+            {%- assign image = banner -%}
+            {%- assign image_widths = '295,394,590,700,800,1000,1200,1500,1800,2000,2400' -%}
+            {%- include 'theme-rias' -%}
+            <div class="responsive-image" style="padding-top: {{ 100 | divided_by: image.aspect_ratio | append: '%' }}">
+              <img
+                class="lazyload fade-in"
+                src="{{ 'blank.gif' | asset_img_url: '1x1' }}"
+                data-src="{{ image_url_pattern }}"
+                data-widths="[{{ image_widths }}]"
+                data-aspectratio="{{ image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ image.alt | escape | default: contact_heading | escape }}"
+              >
+              <noscript>
+                <img
+                  src="{{ image | img_url: '2048x' }}"
+                  alt="{{ image.alt | escape | default: contact_heading | escape }}"
+                >
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {%- endif -%}
+
+  <div class="container-wrap">
+    <div class="contact-form-container container">
+      <div class="row row-med">
+        <div class="contact-column contact-column-form">
+          {%- if contact_heading != blank or contact_content != blank -%}
+            <div class="contact-text">
+              {%- if contact_heading != blank -%}
+                <h1>{{ contact_heading }}</h1>
+              {%- endif -%}
+
+              {%- if contact_content != blank -%}
+                <div class="content-wrapper text-content rte">
+                  {{ contact_content }}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+          {%- include 'contact-form' -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

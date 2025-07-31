@@ -1,0 +1,89 @@
+{%- assign enableSection = section.settings.related_products_enable -%}
+{%- assign limit = section.settings.limit -%}
+{%- assign heading = section.settings.product_recommendations_heading -%}
+{%- assign color_swatches = settings.color_swatches -%}
+{%- assign show_reviews = settings.show_reviews -%}
+
+{%- include 'grid-logic' -%}
+
+<section class="related-products container-wrap collectionGrid js-collectionGrid {% unless enableSection %}visually-hidden{% endunless%}"
+  data-columns="{{ productsColumns }}"
+  data-section-type="related-products"
+  data-section-id="{{ section.id }}"
+  data-product-id="{{ product.id }}"
+  data-limit="{{ section.settings.limit }}"
+  data-show_quantity="{{ settings.show_quantity }}"
+  data-show_reviews="{{ show_reviews }}"
+  data-yotpo="{{ settings.enable_yotpo }}"
+  data-yotpo-id="{{ settings.yotpo_ID }}"
+  data-color_swatches="{{ color_swatches }}"
+  data-image-aspectratio="{{ settings.image_aspect_ratio }}"
+  data-image-size="{{ settings.image_size }}">
+
+  {%- if enableSection -%}
+    {%- if recommendations.performed -%}
+      {%- if recommendations.products_count > 0 -%}
+
+        {%- assign alignCenter = false -%}
+        {%- if recommendations.products_count < productsColumns -%}
+          {%- assign alignCenter = true -%}
+        {%- endif -%}
+
+        <div class="container">
+          {%- if heading != blank -%}
+            <div class="row row-sm carousel-title">
+              <h2>{{ heading }}</h2>
+            </div>
+          {%- endif -%}
+
+          <div class="row inline">
+            <div class="collectionGrid-row {% if alignCenter %}row--center{% endif %}">
+              {%- for product in recommendations.products -%}
+                {% include 'product-grid-item' %}
+              {%- endfor -%}
+
+              {% for i in (1..3) %}
+                <div class="gridSpacer item block {{ collectionBlock--size }} {{ collectionBlock--size-mobile }}"></div>
+              {% endfor %}
+            </div>
+          </div>
+
+        </div>
+      {%- endif -%}
+    {%- else -%}
+      <div class="related__placeholder"></div>
+    {%- endif -%}
+  {%- endif -%}
+</section>
+
+{%- include 'product-quick-view' -%}
+
+{% schema %}
+{
+  "name": "Product recommendations",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "related_products_enable",
+      "label": "Show related products",
+      "info": "Dynamic recommendations change and improve with time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)",
+      "default": true
+    },
+    {
+      "type":    "range",
+      "id":      "limit",
+      "min":     1,
+      "max":     6,
+      "step":    1,
+      "label":   "Product limit",
+      "default": 4
+    },
+    {
+      "type": "text",
+      "id": "product_recommendations_heading",
+      "label": "Heading",
+      "default": "Related products"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,524 @@
+{% comment %}Copy following content and paste to sections/collection-template.liquid file{% endcomment %}
+
+{%- comment -%} Settings {%- endcomment -%}
+{%- assign show_title = section.settings.show_title -%}
+{%- assign show_sort_filter = section.settings.show_sort_filter -%}
+{%- assign show_banner = section.settings.show_banner -%}
+{%- assign filter_mode = section.settings.filter_mode -%}
+{%- unless filter_mode == 'hidden' -%}
+  {%- assign enable_filters = true -%}
+{%- else -%}
+  {%- assign enable_filters = false -%}
+{%- endunless -%}
+{%- assign position_filters = section.settings.position_filters -%}
+{%- assign bannerSubheading = section.settings.banner_subheading -%}
+{%- assign featured = section.settings.featured -%}
+{%- assign showBread = section.settings.showBread -%}
+{%- assign color_swatches = settings.color_swatches -%}
+{%- assign show_reviews = settings.show_reviews -%}
+{%- assign enable_video_looping = settings.enable_video_looping -%}
+
+{%- include 'grid-logic' -%}
+
+{%- comment -%} Typography {%- endcomment -%}
+{%- assign heading_size = section.settings.heading_size -%}
+{%- assign text_size = section.settings.text_size -%}
+{%- assign banner_image = collection.image -%}
+{%- if collection.handle == 'all' %}
+	{%- assign banner_image = section.settings.banner_image -%}
+{%- endif %}
+
+{%- comment -%} Assign all selected tags to container data-tags attribute {%- endcomment -%}
+{%- if enable_filters -%}
+  {%- assign selected_tags = '' -%}
+
+  {%- for tag in current_tags -%}
+    {%- assign current_tag_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle -%}
+    {%- assign selected_tags = selected_tags | append: current_tag_handle -%}
+    {%- unless forloop.last -%}
+      {%- assign selected_tags = selected_tags | append: '+' -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if show_banner and banner_image -%}
+	<style>
+		.main-logo .logo-home:not(:last-child) { position: relative; visibility: visible; }
+		.main-logo .logo-other { position: absolute; visibility: hidden; }
+	</style>
+{%- endif -%}
+
+<div
+	data-section-id="{{ section.id }}"
+	data-section-type="collection-template"
+	data-filters="{{ enable_filters }}"
+	data-filter-mode="{{ filter_mode }}">
+
+	{%- if featured == 'products' -%}
+		{%- assign featuredClass = ' has-featured-products' -%}
+	{%- endif -%}
+
+	{%- capture pageTitle -%}
+		{%- if show_title or showDescription or collection.handle == 'all' -%}
+		<div class="page-title">
+			<div class="container" data-collection-banner-content>
+				{%- if show_title -%}
+					<div class="row row-sm page-title__wrapper">
+						{%- if bannerSubheading != blank -%}
+							<h4 class="page-title__subheading subheading-text">{{ bannerSubheading }}</h4>
+						{%- endif -%}
+						<h1 class="page-title__heading size--{{ heading_size }}">{{collection.title}}
+						{% for tag in collection.all_tags %}
+							{% if current_tags contains tag %}
+							&#8250; {{ tag }}
+							{% endif %}
+						{% endfor %}
+						</h1>
+
+						{%- if collection.description != blank -%}
+							<div class="page-title__text rte size--{{ text_size }}"><p>{{ collection.description | strip_html }}</p></div>
+						{%- endif -%}
+					</div>
+				{%- endif -%}
+			</div>
+		</div>
+		{%- endif -%}
+	{%- endcapture -%}
+
+	{%- if show_banner and banner_image -%}
+
+		{%- comment -%} Banner Settings {%- endcomment -%}
+		{%- assign bannerTextPosition = section.settings.banner_text_position -%}
+		{%- assign bannerColorText = section.settings.banner_color_text -%}
+		{%- assign bannerColorOverlay = section.settings.banner_color_overlay -%}
+		{%- assign bannerOverlayOpacity = section.settings.banner_overlay_opacity | times: 0.01 | round: 2 -%}
+
+		<style>
+			.banner .page-title { color: {{ bannerColorText }}; }
+			.banner .page-title h1 { color: {{ bannerColorText }} !important; }
+			.banner .page-title::before { background-color: {{ bannerColorOverlay }}; opacity: {{ bannerOverlayOpacity }}; }
+			.main-logo__text { color:{{ bannerColorText }}; }
+
+			.site-header.is-standard,
+			.site-header.is-standard .main-logo__text,
+			.header-icons { color: {{ bannerColorText }}; }
+		</style>
+
+		<section class="banner banner--collections">
+			<div class="banner-inner banner-padded banner-padded--{{ section.settings.banner_height }} banner--text-{{ bannerTextPosition }}">
+				{%- unless section.settings.banner_height == 'original-height' -%}
+					<div class="banner-img lazyload fade-in" data-bgset="{% include 'bgset', image: banner_image %}" data-sizes="auto" data-parent-fit="cover"></div>
+					<noscript>
+						<div class="banner-img" style="background-image:url('{{banner_image | img_url: '1024x' }}'); background-size: cover; background-position: center center; background-repeat: no-repeat;"></div>
+					</noscript>
+				{%- else -%}
+					{%- assign image = banner_image -%}
+					{%- assign image_widths = '295,394,590,700,800,1000,1200,1500,1800,2000,2400' -%}
+					{%- include 'theme-rias' -%}
+					<div class="banner-img__container" style="padding-top: {{ 100 | divided_by: image.aspect_ratio | append: '%' }}" data-collection-banner-image>
+						<img class="banner-img--original lazyload fade-in"
+							 src="{{ 'blank.gif' | asset_img_url: '1x1' }}"
+							 data-src="{{ image_url_pattern }}"
+							 data-widths="[{{ image_widths }}]"
+							 data-aspectratio="{{ image.aspect_ratio }}"
+							 data-sizes="auto"
+							 alt="{{ collection.title }}">
+						<noscript>
+							<img src="{{ image | img_url: '2048x' }}" alt="{{ image.alt | escape }}" class="banner-img--original no-js-image">
+						</noscript>
+					</div>
+				{%- endunless -%}
+
+				{{ pageTitle }}
+			</div>
+		</section>
+	{%- else -%}
+		{{ pageTitle }}
+	{%- endif -%}
+
+	<section class="collectionGrid container-wrap" data-show-quickView="{{ settings.show_quick_view }}" data-collection-wrapper>
+		{%- if enable_filters -%}
+			{%- include 'collection-filters' -%}
+		{%- endif -%}
+		<div class="collectionGrid__wrapper">
+			<div class="container">
+				<div class="collectionGrid-nav collectionGrid-row row inline">
+
+					{%- if settings.show_breadcrumbs -%}
+						<div class="breadcrumbs block">
+							{%- include 'site-breadcrumbs' -%}
+						</div>
+					{%- endif -%}
+
+					<div class="grid-sort block">
+						{%- if show_sort_filter -%}
+							<div class="collectionGrid-sort block">
+								<div class="selector-wrapper">
+									<label for="#collectionSort">{{ 'collections.sorting_dropdown.label' | t }}</label>
+									{%- include 'icon-arrow' -%}
+									{%- assign sort_by = collection.sort_by -%}
+									<select class="sort" id="collectionSort" data-collection-sort>
+										<option value="">{{ 'collections.sorting_dropdown.all' | t }}</option>
+										<option value="best-selling" {% if sort_by == "best-selling" %}selected{% endif %}>{{ 'collections.sorting_dropdown.best_selling' | t }}</option>
+										<option value="price-ascending" {% if sort_by == "price-ascending" %}selected{% endif %}>{{ 'collections.sorting_dropdown.price_ascending' | t }}</option>
+										<option value="price-descending" {% if sort_by == "price-descending" %}selected{% endif %}>{{ 'collections.sorting_dropdown.price_descending' | t }}</option>
+										<option value="title-ascending" {% if sort_by == "title-ascending" %}selected{% endif %}>{{ 'collections.sorting_dropdown.title_ascending' | t }}</option>
+										<option value="title-descending" {% if sort_by == "title-descending" %}selected{% endif %}>{{ 'collections.sorting_dropdown.title_descending' | t }}</option>
+										<option value="created-ascending" {% if sort_by == "created-ascending" %}selected{% endif %}>{{ 'collections.sorting_dropdown.created_ascending' | t }}</option>
+										<option value="created-descending" {% if sort_by == "created-descending" %}selected{% endif %}>{{ 'collections.sorting_dropdown.created_descending' | t }}</option>
+									</select>
+								</div>
+							</div>
+						{%- endif -%}
+					</div>
+				</div>
+				<div class="collectionGrid-load load-more-icon" data-load-more-icon></div>
+
+				{%- if collection.all_products_count == 0 -%}
+					<div class="collection-no-products row inline u-center empty-collection">
+						<h4>{{ 'collections.errors.no_products' | t }}</h4>
+						<a class="button" href="{{ routes.all_products_collection_url }}">{{ 'collections.errors.continue_shopping' | t }}</a>
+					</div>
+				{%- endif -%}
+
+				{%- paginate collection.products by productsLimit -%}
+
+					<div class="js-collectionGrid collectionGrid-row collectionGrid-row--grid row inline {{ featuredClass }} EndlessScroll"
+						data-section-id="{{ section.id }}"
+						data-show_quantity="{{ settings.show_quantity }}"
+						data-show_reviews="{{ show_reviews }}"
+						data-yotpo="{{ settings.enable_yotpo }}"
+						data-yotpo-id="{{ settings.yotpo_ID }}"
+						data-color_swatches="{{ color_swatches }}"
+						data-image-aspectratio="{{ settings.image_aspect_ratio }}"
+						data-image-size="{{ settings.image_size }}"
+						data-tags='{% if selected_tags != blank %}{{ selected_tags | split: '+' | json }}{% else %}[]{% endif %}'
+						data-sort="{{ collection.sort_by | default: collection.default_sort_by }}"
+						data-collection="{{ collection.url | default: routes.all_products_collection_url }}"
+						data-collection-products>
+						{%- if featured == 'image' and columnsSize != '5' and paginate.current_page == 1 and collection.all_products_count > 0 -%}
+							{% comment %} Featured Content Settings {% endcomment %}
+							{%- assign featuredImage = section.settings.featured_image -%}
+							{%- assign featuredHeading = section.settings.featured_heading | truncatewords: 8 -%}
+							{%- assign featuredText = section.settings.featured_text | truncatewords: 12 -%}
+							{%- assign featuredButtonText = section.settings.featured_button_text -%}
+							{%- assign featuredButtonLink = section.settings.featured_button_link -%}
+							{%- assign featuredButtonStyle = section.settings.featured_button_style -%}
+							{%- assign featuredColorText = section.settings.featured_color_text -%}
+							{%- assign featuredColorOverlay = section.settings.featured_color_overlay -%}
+							{%- assign featuredOverlayOpacity = section.settings.featured_overlay_opacity | times: 0.01 | round: 2 -%}
+
+							<style>
+								.featured__content { color: {{ featuredColorText }}; }
+								.featured__content h1 { color: {{ featuredColorText }} !important; }
+								.featured__image::after { background-color: {{ featuredColorOverlay }}; opacity: {{ featuredOverlayOpacity }}; }
+							</style>
+
+							<div class="collectionBlock js-collectionBlock s1 featured-block {% if columnsSize == '4' %}featured-block--large lg_s12{% else %}featured-block--default {{ collectionBlock--size }}{% endif %}">
+								<div class="featured-block__container">
+									<div class="featured-block__wrapper">
+										{%- unless featuredImage == blank -%}
+											<div class="featured__image lazyload"
+												data-bgset="{% include 'bgset', image: featuredImage %}"
+												data-sizes="auto"
+												data-parent-fit="cover"
+												data-aspectratio="{{ featuredImage.aspect_ratio }}"></div>
+											<noscript>
+												<div class="featured__image no-js-image" style="background-image: url({{ section.settings.featured_image | img_url: '1024x' }});"></div>
+											</noscript>
+										{%- else -%}
+											<div class="featured__image svg-placeholder">
+												{{ 'image' | placeholder_svg_tag }}
+											</div>
+										{%- endunless -%}
+
+										{%- if featuredHeading != blank or featuredText != blank or featuredButtonText != blank -%}
+											<div class="featured__content">
+												{%- if featuredHeading -%}
+													<h1>{{ featuredHeading }}</h1>
+												{%- endif -%}
+
+												{%- if featuredText -%}
+													{{ featuredText }}
+												{%- endif -%}
+
+												{%- if featuredButtonText != blank -%}
+													{%- if featuredButtonLink == blank -%}
+														{%- assign featuredButtonLink = "#!" -%}
+													{%- endif -%}
+													<a href="{{ featuredButtonLink }}" title="{{ featuredButtonText }}" class="button button--{{ featuredButtonStyle }}">{{ featuredButtonText }}</a>
+												{%- endif -%}
+											</div>
+										{%- endif -%}
+									</div>
+								</div>
+							</div>
+						{%- endif -%}
+
+						{% for product in collection.products %}
+							{% include 'product-grid-item' %}
+						{% endfor %}
+
+						{% for i in (1..3) %}
+							<div class="gridSpacer item block s1 sm_s12 {% unless template == 'collection' %}lg_s1{{ columnsSize }} {% else %}{{ collectionBlock--size }}{% endunless %}"></div>
+						{% endfor %}
+
+						{%- if paginate.next -%}
+							<div class="pagination u-center" data-collection-pagination>
+								<a href="{{ paginate.next.url }}" class="loadMore visually-hidden">{{ 'collections.pagination.load_more' | t }}</a>
+								<div class="load-more-icon"></div>
+							</div>
+						{%- endif -%}
+
+					</div>
+
+				{%- endpaginate -%}
+			</div>
+		</div>
+	</section>
+</div>
+
+{%- include 'product-quick-view' -%}
+
+{% schema %}
+	 {
+	"name": "Collection pages",
+	"settings": [
+		{
+			"type": "header",
+			"content": "Collection settings"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_title",
+			"label": "Show title",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "show_sort_filter",
+			"label": "Show Sort By filter",
+			"default": true
+		},
+		{
+			"type": "select",
+			"label": "Filter mode",
+			"id": "filter_mode",
+			"info": "Filters by group requires specific tag formatting. [Learn more](https://help.shopify.com/manual/using-themes/themes-by-shopify/supply#product-tips-tips-specific)",
+			"default": "tag",
+			"options": [
+				{ "label": "Hidden", "value": "hidden" },
+				{ "label": "By tag", "value": "tag" },
+				{ "label": "By group", "value": "group" }
+			]
+		},
+		{
+			"type": "select",
+			"id": "position_filters",
+			"label": "Position",
+			"default": "left",
+			"options": [
+				{ "label": "Top", "value": "top" },
+				{ "label": "Left", "value": "left" }
+			]
+		},
+		{
+			"type": "header",
+			"content": "Banner image"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_banner",
+			"label": "Show collection image as a banner",
+			"default": true
+		},
+		{
+			"type": "image_picker",
+			"id": "banner_image",
+			"label": "Default image",
+			"info": "Will be shown on collections/all"
+		},
+		{
+			"type": "select",
+			"id": "banner_height",
+			"label": "Height",
+			"options": [
+				{
+					"value": "one-hundred",
+					"label": "Full screen height"
+				},
+				{
+					"value": "original-height",
+					"label": "Image height"
+				},
+				{
+					"value": "big",
+					"label": "750px"
+				},
+				{
+					"value": "normal",
+					"label": "650px"
+				},
+				{
+					"value": "small",
+					"label": "550px"
+				}
+			],
+			"default": "small"
+		},
+		{
+			"type": "text",
+			"id": "banner_subheading",
+			"label": "Subheading"
+		},
+		{
+			"type": "select",
+			"id": "banner_text_position",
+			"label": "Text position",
+			"default": "center",
+			"options": [
+				{ "label": "Left", "value": "left" },
+				{ "label": "Center", "value": "center" },
+				{ "label": "Right", "value": "right" },
+				{ "label": "Bottom left", "value": "bottom-left" },
+				{ "label": "Bottom right", "value": "bottom-right" }
+			]
+		},
+		{
+			"type": "header",
+			"content": "Typography"
+		},
+		{
+			"type": "select",
+			"id": "heading_size",
+			"label": "Heading size",
+			"default": "normal",
+			"options": [
+				{ "label": "Small", "value": "small" },
+				{ "label": "Normal", "value": "normal" },
+				{ "label": "Large", "value": "large" },
+				{ "label": "Extra large", "value": "xlarge" }
+			]
+		},
+		{
+			"type": "select",
+			"id": "text_size",
+			"label": "Text size",
+			"default": "normal",
+			"options": [
+				{ "label": "Small", "value": "small" },
+				{ "label": "Normal", "value": "normal" },
+				{ "label": "Large", "value": "large" },
+				{ "label": "Extra large", "value": "xlarge" }
+			]
+		},
+		{
+			"type": "header",
+			"content": "Colors"
+		},
+		{
+			"type": "color",
+			"id": "banner_color_text",
+			"label": "Text",
+			"default": "#ffffff"
+		},
+		{
+			"type": "color",
+			"id": "banner_color_overlay",
+			"label": "Overlay",
+			"default": "#333333"
+		},
+		{
+			"type": "range",
+			"id": "banner_overlay_opacity",
+			"label": "Overlay opacity",
+			"step": 1,
+			"max": 100,
+			"min": 0,
+			"unit": "%",
+			"default": 0
+		},
+		{
+			"type": "header",
+			"content": "Layout"
+		},
+		{
+			"type": "select",
+			"id": "featured",
+			"label": "Featured content",
+			"default": "none",
+			"info": "Showcase an image inside your product grid or the first two products in a collection.",
+			"options": [
+				{ "label": "None", "value": "none" },
+				{ "label": "Image", "value": "image" },
+				{ "label": "First two products", "value": "products" }
+			]
+		},
+		{
+			"type": "header",
+			"content": "Image",
+			"info": "The below settings apply only if you select Image for Featured content above."
+		},
+		{
+			"type": "image_picker",
+			"id": "featured_image",
+			"label": "Image"
+		},
+		{
+			"type": "text",
+			"id": "featured_heading",
+			"label": "Heading",
+			"default":"Use this image showcase promotional content."
+		},
+		{
+			"type": "richtext",
+			"id": "featured_text",
+			"label": "Text",
+			"default":"<p>Elaborate on it with rich text</p>"
+		},
+		{
+			"type": "text",
+			"id": "featured_button_text",
+			"label": "Button label",
+			"default":"Learn More"
+		},
+		{
+			"type": "url",
+			"id": "featured_button_link",
+			"label": "Button link"
+		},
+		{
+			"type": "select",
+			"id": "featured_button_style",
+			"label": "Button style",
+			"default": "primary",
+			"options": [
+				{ "label": "Primary", "value": "primary" },
+				{ "label": "Secondary", "value": "secondary" }
+			]
+		},
+		{
+			"type": "color",
+			"id": "featured_color_text",
+			"label": "Text",
+			"default": "#ffffff"
+		},
+		{
+			"type": "color",
+			"id": "featured_color_overlay",
+			"label": "Overlay",
+			"default": "#333333"
+		},
+		{
+			"type": "range",
+			"id": "featured_overlay_opacity",
+			"label": "Overlay opacity",
+			"step": 1,
+			"max": 100,
+			"min": 0,
+			"unit": "%",
+			"default": 30
+		}
+	]
+}
+{% endschema %}

@@ -1,0 +1,29 @@
+{%- assign image = media.preview_image -%}
+{%- assign image_widths = '180,360,540' -%}
+{%- include 'theme-rias' -%}
+<div class="js-slide product-single__media-thumb {% if forloop.index == 1 %}active{% endif %}" data-id="{{ media.id }}">
+	<a href="{{ media.preview_image | img_url: product_image_zoom_size, scale: product_image_scale }}"
+		class="js-product-single__thumbnail product-single__thumbnail product-single__thumbnail--{{ section.id }}"
+		data-thumbnail-id="{{ section.id }}-{{ media.id }}">
+		<img
+			 class="product-single__thumbnail-img lazyload fade-in{% if forloop.index == 1 %} active{% endif %}"
+			 src="{{ 'blank.gif' | asset_img_url: '1x1' }}"
+			 data-src="{{ image_url_pattern }}"
+			 data-widths= "[{{ image_widths }}]"
+			 data-aspectratio="{{ media.preview_image.aspect_ratio }}"
+			 data-sizes="auto"
+			 data-object-fit="cover"
+			 alt="{{ media.alt | escape }}"
+			 itemprop="image"
+		>
+		<noscript>
+			<img src="{{ media.preview_image | img_url: 'master' }}" class="product-single__thumbnail-img{% if forloop.index == 1 %} active{% endif %}" alt="{{ media.alt | escape }}">
+		</noscript>
+
+		{%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
+			{%- include 'icon-media-video' -%}
+		{%- elsif media.media_type == 'model' -%}
+			{%- include 'icon-media-model' -%}
+		{%- endif -%}
+	</a>
+</div>

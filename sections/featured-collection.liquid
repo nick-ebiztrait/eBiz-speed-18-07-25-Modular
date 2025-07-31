@@ -1,0 +1,156 @@
+{% comment %} Settings {% endcomment %}
+{%- assign collection1 = collections[section.settings.collection1] | default: false -%}
+{%- assign title = section.settings.title -%}
+{%- assign layout = section.settings.products_layout -%}
+{%- assign show_button = section.settings.show_button -%}
+{%- assign button_style = section.settings.button_style -%}
+{%- assign color_swatches = settings.color_swatches -%}
+{%- assign show_reviews = settings.show_reviews -%}
+{%- assign enable_carousel = false -%}
+{%- assign products_limit = section.settings.pro_count -%}
+{%- if layout == 'carousel' -%}
+	{%- assign enable_carousel = true -%}
+{%- endif -%}
+
+{% comment %} Layout {% endcomment %}
+{%- include 'grid-logic' -%}
+
+{% comment %} Section {% endcomment %}
+<section class="featured-collection collectionGrid container-wrap js-collection-grid js-collectionGrid" id="collection-module-{{ section.id }}" 
+	data-section-type="featured-collection"
+	data-section-id="{{ section.id }}"
+	data-show-quickView="{{ settings.show_quick_view }}"
+	data-show_reviews="{{ show_reviews }}"
+	data-show_quantity="{{ settings.show_quantity }}"
+	data-yotpo="{{ settings.enable_yotpo }}"
+	data-yotpo-id="{{ settings.yotpo_ID }}"
+	data-color_swatches="{{ color_swatches }}"
+	data-carousel="{{ enable_carousel }}"
+	data-slides-per-row="{{ settings.products_columns }}"
+	data-image-aspectratio="{{ settings.image_aspect_ratio }}"
+	data-image-size="{{ settings.image_size }}"
+	data-collection-products>
+	<div class="container">
+		{%- if title != blank -%}
+			<div class="collectionGrid-header row row-sm">
+				<div class="block s1">
+					<h2>{{ title }}</h2>
+				</div>
+			</div>
+		{%- endif -%}
+
+		{%- if enable_carousel -%}
+		<div class="collection-slider__wrapper">
+		{%- endif -%}
+
+			<div class="collectionGrid-row row inline {% if enable_carousel %}collectionGrid-row--slider collection-slider js-collection-slider{% else %}collectionGrid-row--grid{% endif %}">
+				{% comment %} Collection Block, contains .js-quickView {% endcomment %}
+				{%- if collection1 -%}
+					{%- if enable_carousel -%}
+						{%- for product in collection1.products -%}
+							{%- include 'product-grid-item' -%}
+						{%- endfor -%}
+					{%- else -%}
+						{%- for product in collection1.products limit: products_limit  -%}
+							{%- include 'product-grid-item' -%}
+						{%- endfor -%}
+					{%- endif -%}
+				{%- else -%}
+					{%- for i in (1..products_limit) -%}
+						{%- include 'product-grid-item', fallback: true -%}
+					{%- endfor -%}
+				{%- endif -%}
+
+				{%- unless enable_carousel -%}
+					{%- comment -%} Spacers for inline-block based collectionGrid {%- endcomment -%}
+					{% for i in (1..3) %}
+						<div class="gridSpacer item block {{ collectionBlock--size }} {{ collectionBlock--size-mobile }}"></div>
+					{% endfor %}
+				{%- endunless -%}
+			</div>
+
+		{%- if enable_carousel -%}
+		</div>
+		{%- endif -%}
+
+		{% comment %} Shop All Link {% endcomment %}
+		{%- if show_button -%}
+			<div class="row row-med u-center">
+				<a href="{{ collection1.url }}" class="button button--{{ button_style }} inline collectionGrid__button">
+					{{ 'collections.grid.shop_all' | t }} {{ collection1.title }}
+				</a>
+			</div>
+		{%- endif -%}
+	</div>
+</section>
+
+{%- include 'product-quick-view' -%}
+
+{% comment %} Schema {% endcomment %}
+{% schema %}
+{
+	"name": "Featured collection",
+	"class": "shopify-section--featured-collection",
+	"settings": [
+		{
+			"type": "header",
+			"content": "Content"
+		},
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Title"
+		},
+		{
+			"type": "collection",
+			"id": "collection1",
+			"label": "Collection"
+		},
+		{
+			"type": "select",
+			"id": "products_layout",
+			"label": "Layout",
+			"default": "grid",
+			"options": [
+				{ "value": "grid", "label": "Grid" },
+				{ "value": "carousel", "label": "Carousel" }
+			]
+		},
+		{
+			"type": "range",
+			"id": "pro_count",
+			"min": 4,
+			"max": 52,
+			"step": 1,
+			"unit": "sec",
+			"label": "Total number of products",
+			"default": 20
+		},
+		{
+			"type": "checkbox",
+			"id": "show_button",
+			"label": "Show collection link button",
+			"default": true
+		},
+		{
+			"type": "select",
+			"id": "button_style",
+			"label": "Button style",
+			"default": "primary",
+			"options": [
+				{ "label": "Primary", "value": "primary" },
+				{ "label": "Secondary", "value": "secondary" }
+			]
+		}
+	],
+	"presets": [
+		{
+			"category": "Collection",
+			"name": "Featured collection",
+			"settings": {
+				"collection1": "frontpage"
+			}
+		}
+	]
+}
+{% endschema %}

@@ -1,0 +1,50 @@
+{%- if enable_tabs_h6 -%}
+	{%- assign tab_headings = "" -%}
+	{%- assign tab_contents = "" -%}
+
+	{%- assign product_description_split = product.description | replace: '<p>[split]</p>', '[split]' | replace: '[split]', '' | replace: '<h6></h6>', '' -%}
+	{%- assign product_description_split = product_description_split | replace: '<h6>', '[!ヽ(´ー｀)/!]' |  replace: '</h6>', '[!ヽ(´ー｀)/!]' | split: '[!ヽ(´ー｀)/!]' -%}
+
+		{%- for item in product_description_split -%}
+			{% comment %}
+				The zero item is the product description, after that tab headings are odd and contents are even.
+			{% endcomment %}
+			{%- assign odd_mod = forloop.index0 | modulo:2 -%}
+			{%- if odd_mod == 0 -%}
+				{%- unless forloop.index0 == 0 -%}
+					{%- assign tab_contents = tab_contents | append: item | append: '[!ヽ(´ー｀)/!]' -%}
+				{%- endunless -%}
+			{%- endif -%}
+			{%- if odd_mod == 1 -%}
+				{%- assign tab_headings = tab_headings | append: item | append: '[!ヽ(´ー｀)/!]' -%}
+			{%- endif -%}
+		{%- endfor -%}
+
+		{%- assign tab_headings = tab_headings | split: '[!ヽ(´ー｀)/!]' -%}
+	{%- assign tab_contents = tab_contents | split: '[!ヽ(´ー｀)/!]' -%}
+	{%- assign tabs_count = tab_headings.size  | minus: 1 -%}
+
+	{%- capture tabs_h6_headings -%}
+		{%- for i in (0..tabs_count) -%}
+			<button class="product-tab-title{% if is_first_tab_heading %} is-active{% endif %}">
+				{{- tab_headings[i] -}}
+				<span class="button-toggle">
+					{%- include 'icon-plus' -%}
+					{%- include 'icon-minus' -%}
+				</span>
+			</button>
+			{%- if is_first_tab_heading -%}
+				{%- assign is_first_tab_heading = false -%}
+			{%- endif -%}
+		{%- endfor -%}
+	{%- endcapture -%}
+
+	{%- capture tabs_h6_contents -%}
+		{%- for i in (0..tabs_count) -%}
+			<div class="product-tab-content rte{% if is_first_tab_content %} is-active{% endif %}">{{ tab_contents[i] }}</div>
+			{%- if is_first_tab_content -%}
+				{%- assign is_first_tab_content = false -%}
+			{%- endif -%}
+		{%- endfor -%}
+	{%- endcapture -%}
+{%- endif -%}

@@ -1,0 +1,62 @@
+<div class="icon-with-text-wrapper">
+  <div class="icon-with-text">
+    <i class="fa-solid fa-truck-fast"></i>
+    <p>FREE SHIPPING ON ALL ORDERS OVER $100.00</p>
+  </div>
+  <div class="icon-with-text">
+    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+    <p>EASY EXCHANGE & RETURN</p>
+  </div>
+  <div class="icon-with-text">
+    <i class="fa-solid fa-wallet"></i>
+    <p>FAST DELIVERY</p>
+  </div>
+</div>
+{% style %}
+        .icon-with-text-wrapper{
+          display:flex;
+          justify-content:space-between;
+          padding:40px 10px;
+        }
+      .icon-with-text{
+        width:33.33%;
+        text-align:center;
+      }
+        .icon-with-text i{
+          font-size:30px;
+        }
+      .icon-with-text p{
+        font-size:16px;
+        margin-top:10px;
+      }
+      @media (max-width:576px){
+        .icon-with-text {
+        width: 100%;
+        text-align: center;
+    }
+        .icon-with-text-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px 10px;
+  }
+      }
+{% endstyle %}
+{% schema %}
+{
+  "name": "icon-with-text",
+  "class": "shopify-section-icon-with-text",
+
+  "settings": [
+
+  ],
+
+  "presets": [
+    {
+
+      "name": "icon-with-text",
+
+    }
+  ]
+}
+{% endschema %}

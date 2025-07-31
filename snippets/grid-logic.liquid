@@ -1,0 +1,17 @@
+{% comment %}
+  Set collectionBlock size classes
+  These are applied in the collectionGrid-block.liquid file
+{% endcomment %}
+{%- assign productsRows = settings.products_rows | plus: 0 -%}
+{%- assign productsColumns = settings.products_columns | plus: 0 -%}
+{%- assign productsColumnsMobile = settings.products_columns_mobile | plus: 0 -%}
+{%- assign productsLimit = productsColumns | times: productsRows -%}
+{%- assign columnsSize = productsColumns | replace: '1', '' -%}
+{%- assign columnsSizeMobile = productsColumnsMobile | replace: '1', '' -%}
+{%- assign collectionBlock--size = 'lg_s1' | append: columnsSize -%}
+{%- assign collectionBlock--size-mobile = 's1' | append: columnsSizeMobile -%}
+
+{% comment %} Set tablet size to be one-half {% endcomment %}
+{%- if productsColumns > 2 -%}
+	{%- assign collectionBlock--size = 'lg_s1' | append: columnsSize | append: ' med_s13' -%}
+{%- endif -%}

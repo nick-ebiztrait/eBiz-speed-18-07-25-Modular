@@ -1,0 +1,106 @@
+{%- comment -%} Settings {%- endcomment -%}
+{%- assign button_text = section.settings.button_text -%}
+{%- assign button_style = section.settings.button_style -%}
+
+{%- comment -%} Layout {%- endcomment -%}
+{%- assign collectionsColumns = section.settings.collections_columns | plus: 0 -%}
+{%- assign columnsSize = collectionsColumns | replace: '1', '' -%}
+{%- assign collectionBlock--size = 'block s1 lg_s1' | append: columnsSize | append: ' med_s12' -%}
+
+{%- comment -%} Colors {%- endcomment -%}
+{%- assign text_color = section.settings.text_color -%}
+{%- assign overlay_color = section.settings.overlay_color -%}
+{%- assign overlay_opacity = section.settings.overlay_opacity | times: 0.01 | round: 2 -%}
+
+{%- comment -%} Typography {%- endcomment -%}
+{%- assign coll_text_size = 'normal' -%}
+
+{%- if columnsSize == '4' -%}
+  {%- assign coll_text_size = 'small' -%}
+{%- endif -%}
+
+{%- include 'list-collections-template' -%}
+
+{%- comment -%} Schema {%- endcomment -%}
+{% schema %}
+{
+  "name": "Collections list",
+  "class": "shopify-section--list-collections",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_description",
+      "label": "Show descriptions",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "collections_columns",
+      "label": "Collections per row",
+      "default": 4,
+      "min": 2,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "select",
+      "id": "coll_text_position",
+      "label": "Collections text position",
+      "default": "center",
+      "options": [
+        { "label": "Top left", "value": "top_left" },
+        { "label": "Top right", "value": "top_right" },
+        { "label": "Center", "value": "center" },
+        { "label": "Bottom left", "value": "bottom_left" },
+        { "label": "Bottom right", "value": "bottom_right" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button label",
+      "default": "View products"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "default": "primary",
+      "options": [
+        { "label": "Primary", "value": "primary" },
+        { "label": "Secondary", "value": "secondary" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "For collection blocks"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay",
+      "step": 1,
+      "max": 100,
+      "min": 0,
+      "unit": "%",
+      "default": 0
+    }
+  ]}
+{% endschema %}

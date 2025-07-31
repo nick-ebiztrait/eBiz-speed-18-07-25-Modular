@@ -1,0 +1,205 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="{{ shop.locale }}"> <![endif]-->
+<!-- [if (gt IE 9)|!(IE)]><! -->
+<html class="no-js supports-no-cookies" lang="{{ shop.locale }}">
+  <!-- <![endif] -->
+
+  <head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3HL8LQ267"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y3HL8LQ267');
+    </script>
+
+
+ {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+<link rel="preload" href="{{ 'theme.scss.css' | asset_url }}" as="style">
+<link rel="preload" href="{{ 'new.css' | asset_url }}" as="style">
+<link rel="preload" as="style" media="screen" href="https://estellboutiques.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" crossorigin="anonymous">
+<link rel="preload" as="style" media="screen" href="https://zrv7rh9787g9kph4-26711687253.shopifypreview.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" crossorigin="anonymous">
+ <link rel="preload" href="https://cdn.shopify.com/extensions/2dde6ad6-e43f-4722-a70b-a96a562e61a0/smart-product-filter-search-350/assets/globo.search.css" as="style">
+  <link rel="preload" href="https://zrv7rh9787g9kph4-26711687253.shopifypreview.com/cdn/shopifycloud/storefront/assets/themes_support/option_selection-b017cd28.js" as="script">  
+   <link rel="preload" href="https://estellboutiques.com/cdn/shopifycloud/storefront/assets/themes_support/option_selection-b017cd28.js" as="script">  
+    <link rel="preload" href="{{ 'shop.js' | asset_url }}" as="script">   
+    {%- include 'site-social-meta' -%}
+     
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Estell Boutique",
+        "image": "https://estellboutiques.com/cdn/shop/files/p6HAElJA_500x.png?v=1614296445",
+        "@id": "",
+        "url": "https://estellboutiques.com/",
+        "telephone": "310-395-1506",
+        "priceRange": "$50-$500",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "908 Montana Ave",
+          "addressLocality": "Santa Monica",
+          "addressRegion": "CA",
+          "postalCode": "90403",
+          "addressCountry": "US"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "http://facebook.com/estellboutique",
+          "http://instagram.com/estellboutique"
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Estell Boutique",
+        "url": "https://estellboutiques.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://estellboutiques.com/search?q{search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Estell Boutique",
+        "url": "https://estellboutiques.com/",
+        "logo": "https://estellboutiques.com/cdn/shop/files/p6HAElJA_500x.png?v=1614296445"
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://estellboutiques.com/"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "All Collection",
+          "item": "https://estellboutiques.com/collections/all"
+        },{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Seasonal New Arrivals",
+          "item": "https://estellboutiques.com/collections/seasonal-new-arrivals"
+        },{
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Best Sellers",
+          "item": "https://estellboutiques.com/collections/best-sellers-womens-clothing"
+        }]
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <title>
+      {{ page_title }}
+      {% if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif %}
+      {% if current_page != 1 %} &ndash; Page {{ current_page }}{% endif %}
+      {% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+    </title>
+
+    {%- if settings.favicon != blank -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+    {%- endif -%}
+
+   
+
+    <!--[if IE]> <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /> <![endif]-->
+    <link rel="canonical" href="{{ canonical_url }}">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+   
+
+    {{- 'theme.scss.css' | asset_url | stylesheet_tag -}}
+    {{- 'new.css' | asset_url | stylesheet_tag -}}
+
+    {{ content_for_header }}
+
+    {%- if settings.enable_yotpo and settings.yotpo_ID != '' -%}
+      {%- include 'yotpo-script' -%}
+    {%- endif -%}
+    {% include 'wiser' %}
+
+
+
+
+  </head>
+
+  {%- capture body_class -%}{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} image-hover-light cta-fill-black{% if settings.transition_images_fade %} enable-fade-in{% endif %} no-outline{%- endcapture -%}
+
+  <body id="{{ page_title | handle }}" class="{{ body_class }}">
+    <a class="in-page-link skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    {%- section 'popup' -%}
+
+    <div class="pageWrap">
+      {%- section 'header' -%}
+
+      <div class="bodyWrap">
+        <main class="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
+          {{ content_for_layout }}
+        </main>
+
+        {%- section 'footer' -%}
+      </div>
+      <!-- END bodyWrap -->
+    </div>
+    <!-- END pageWrap -->
+
+    <!-- AJAX Mustache Templates -->
+    {%- include 'ajax-cart' -%}
+
+    {%- include 'scripts' -%}
+
+    {%- include 'load-spinner' -%}
+    {{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
+
+    <script>
+      $('.footer__block.footer__block--menus ul li.footer__block-menu-link:last-child a').attr('target', '_blank');
+    </script>
+ {% render 'size-chart-default' %}
+ <link rel="preload" href="{{ 'splide.min.js' | asset_url }}" as="script">
+<script src="{{ 'splide.min.js' | asset_url }}"></script>
+
+  </body>
+</html>

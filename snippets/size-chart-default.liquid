@@ -1,0 +1,109 @@
+<!-- Size Chart Button -->
+<button id="size-chart-btn" type="button" class="size-chart-btn">
+  View Size Chart
+</button>
+
+<!-- Size Chart Modal -->
+<div id="size-chart-modal" class="size-chart-modal">
+  <div class="size-chart-content">
+    <span id="close-size-chart" class="close-size-chart">&times;</span>
+
+    <div class="size-chart-page-content">
+      {% assign size_chart_page = pages['sizing-chart'] %}
+      {{ size_chart_page.content }}
+    </div>
+
+  </div>
+</div>
+
+<style>
+  .size-chart-btn {
+    padding: 0;
+    background-color:transparent ;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 13px !important;
+    margin: 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  .size-chart-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999; /* make sure it's high enough */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .size-chart-content {
+    background: white;
+    margin: 7% auto;
+    padding: 20px;
+    width: 100%;
+    max-width:60%;
+    border-radius: 10px;
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .close-size-chart {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .size-chart-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  .size-chart-table th,
+  .size-chart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .size-chart-table th {
+    background-color: #f4f4f4;
+  }
+.size-chart-content img {
+    width: 100%;
+}
+@media (max-width:768px){
+  .productForm-block.productForm-block--options-inline.productForm-block--swatches {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .size-chart-content {
+    max-width:96%;
+  }
+}
+</style>
+<script>
+  document.getElementById('size-chart-btn').addEventListener('click', function () {
+    document.getElementById('size-chart-modal').style.display = 'block';
+  });
+
+  document.getElementById('close-size-chart').addEventListener('click', function () {
+    document.getElementById('size-chart-modal').style.display = 'none';
+  });
+
+  window.addEventListener('click', function (event) {
+    var modal = document.getElementById('size-chart-modal');
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+</script>
