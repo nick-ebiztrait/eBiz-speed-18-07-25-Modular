@@ -1,1 +1,2912 @@
-{"current":{"color_heading_new":"#b8100e","color_text_new":"#262525","color_error_new":"#d02e2e","color_border_new":"#000000","color_background_new":"#ffffff","color_button_primary_bg":"#b8100e","color_button_secondary_bg":"#ffffff","color_top_bar":"#b8100e","color_top_bar_text":"#ffffff","color_header_bg_home":"rgba(0,0,0,0)","color_header_text_home":"#ffffff","color_header_bg":"rgba(0,0,0,0)","color_header_text":"#000000","color_header_bg_scroll":"#ffffff","color_header_text_scroll":"#000000","color_dropdown_bg":"#ffffff","color_dropdown_text":"#000000","drawer_bg_color":"#ffffff","drawer_text_color":"#000000","header_icon_color_home":"#e75c39","header_bg_color_home":"#ffffff","header_icon_color":"#000000","header_bg_color":"#ffffff","header_icon_color_scroll":"#222222","header_bg_color_scroll":"#ffffff","color_badge_bg":"#e32c2b","color_footer_text":"#000000","color_footer_bg":"#ffffff","color_bottom_bar_bg":"#fafafa","header_font_picker":"crimson_text_n4","base_font_size":12,"heading_letter_spacing":0,"general_font_picker":"source_sans_pro_n4","body_font_size":14,"body_letter_spacing":0,"transition_grid_items":true,"transition_product_features":true,"transition_images_fade":true,"transition_collections_list":true,"show_search":true,"search_suggested_collection":"","search_suggested_page_1":"","search_suggested_page_2":"","search_suggested_blog":"","search_suggested_collection_heading":"","search_suggested_pages_heading":"","search_suggested_blog_heading":"","search_suggested_text_color":"#ffffff","search_suggested_overlay_color":"#333333","search_suggested_overlay_opacity":0,"image_aspect_ratio":1,"image_size":"cover","product_title_position":"center","show_quick_view":true,"show_quick_view_description":true,"price_hover":true,"show_quantity":true,"show_review_stars":true,"hover_image":true,"enable_payment_button":true,"color_swatches":true,"color_swatches_style":"circle","product_badge_style":"rectangle","products_rows":4,"products_columns":4,"products_columns_mobile":"1","enable_video_looping":false,"dots_style":"hidden","cart_icon":"cart","enable_ajax_cart":true,"enable_cart_order_notes":false,"show_continue_shopping":true,"tax_text":"Excluding taxes and shipping","show_breadcrumbs":true,"show_reviews":true,"enable_yotpo":false,"yotpo_ID":"","favicon":"shopify:\/\/shop_images\/favicon_1.png","social_share_image":"shopify:\/\/shop_images\/p6HAElJA.png","twitter_url":"","facebook_url":"http:\/\/facebook.com\/estellboutique","pinterest_url":"","instagram_url":"http:\/\/instagram.com\/estellboutique","tumblr_url":"","youtube_url":"","rss_url":"","share_on_twitter":true,"share_on_facebook":true,"share_on_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#197bbd","checkout_button_color":"#197bbd","checkout_error_color":"#e32c2b","show_custom_cursor":false,"custom_cursor_image":"","color_primary_new":"#2b558d","color_secondary_new":"#000000","color_overlay_bg":"#000000","promo_url":"","promo_banner_style":"primary","logo_enabled":true,"promo_url_enabled":false,"browse_by_tag_enabled":true,"collection_collectionGrid_columns":"3","nav_bg_color":"#f4f4f4","nav_text_color":"#222222","twitter_via":"","color_seconsdary_new":"#2e3234","sections":{"header":{"type":"header","settings":{"logo_other":"shopify:\/\/shop_images\/p6HAElJA.png","logo_max_width":100,"show_site_name":false,"menu_list":"new-main-navigation","links_position":"links_center","logo_position":"logo_left","meganav_image":"shopify:\/\/shop_images\/9779-30Blackwhite.jpg","meganav_image_heading":"","meganav_image_link":"","show_announcement":true,"show_announcement_on_mobile":true,"text":"<p><strong>FREE SHIPPING ON ALL ORDERS OVER $100.00<\/strong><\/p>","link":""}},"collection-template":{"type":"collection-template","custom_css":["@media (max-width: 767px) {.collectionGrid {margin-top: 0 !important; }}"],"settings":{"show_title":true,"show_sort_filter":false,"filter_mode":"group","position_filters":"top","show_banner":true,"banner_height":"small","banner_subheading":"","banner_text_position":"bottom-left","heading_size":"normal","text_size":"normal","banner_color_text":"#ffffff","banner_color_overlay":"#333333","banner_overlay_opacity":25,"featured":"none","featured_heading":"Use this image showcase promotional content.","featured_text":"<p>Elaborate on it with rich text<\/p>","featured_button_text":"Learn More","featured_button_link":"","featured_button_style":"primary","featured_color_text":"#ffffff","featured_color_overlay":"#333333","featured_overlay_opacity":0}},"1498737500673":{"type":"slideshow","blocks":{"49592f14-f42e-445b-baf2-3fe0fbcde794":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Estell-WebBanners-Spring25-BlueJacket.jpg","image_mobile":"shopify:\/\/shop_images\/Estell-WebBanners-Spring25-BlueJacket.jpg","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"","text":"","cta":"Shop Now","link":"shopify:\/\/collections\/womens-dresses","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"large","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"3f5021fd-b3dd-430b-9369-3a4a74d990a3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Estell-WebBanners-Spring25-GreenDress.jpg","image_mobile":"shopify:\/\/shop_images\/Estell-WebBanners-Spring25-GreenDress.jpg","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"","text":"","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"large","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["49592f14-f42e-445b-baf2-3fe0fbcde794","3f5021fd-b3dd-430b-9369-3a4a74d990a3"],"settings":{"showNavArrows":true,"show_arrow_down":true,"autoplay":true,"duration":4,"transition":"fade","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"product-template":{"type":"product-template","settings":{"product_layout":"slideshow","image_gallery":"lightbox","image_size":"large","add_cart_position":"top","show_vendor":true,"show_quantity":true,"show_cart_bar":true,"enable_payment_button":true,"show_newsletter":true,"text_newsletter":"<p>Notify me when this product is available:<\/p>","enable_tabs_h6":false,"page_tab_1":"","page_tab_2":"","page_tab_3":"","product_slideshow_dots":false,"product_slideshow_arrows":true,"enable_video_looping":false}},"footer":{"type":"footer","blocks":{"1528202808725":{"type":"menu","settings":{"menu":"helpful-links","title":"Helpful Links","mobile_hide_block":true}},"1582813156290":{"type":"text","settings":{"title":"Information","text":"<p>Monday: 12-5<br\/>Tuesday-Saturday: 11-6<br\/>Sunday 12-5<\/p><p>908 Montana Ave Santa Monica, CA 90403<br\/><strong>310-395-1506<br\/><br\/><\/strong>Monday-Sunday: 11 AM - 6 PM<strong><br\/><\/strong>912-A Manhattan Ave, Manhattan Beach, CA 90266<strong><br\/>310-985-7717<\/strong><\/p>","mobile_hide_block":false}},"1582813160258":{"type":"newsletter","settings":{"title":"Newsletter","content":"","mobile_hide_block":false}}},"block_order":["1528202808725","1582813156290","1582813160258"],"settings":{"show_payment_icons":true,"show_social_icons":true,"menu":"footer","show_locale_selector":true,"show_currency_selector":true}},"popup":{"type":"popup","settings":{"show_popup":"enabled","popup_logo":"shopify:\/\/shop_images\/logo_4f6579e7-5ee3-4436-8387-b7a0d24f6088.jpg","popup_header":"Sassy... but Classy","popup_content":"<h1><strong>GRAND<br\/>OPENING<\/strong><\/h1><h5><strong>July 2025<\/strong><\/h5><p>Free Gift with Purchase in July!<strong><br\/><br\/><\/strong>912-A Manhattan Ave. <br\/>Manhattan Beach, CA, 90266<br\/>(310) 985-7717<br\/><br\/>908 Montana Ave, <br\/>Santa Monica, CA, 90403<br\/>(310) 395-1506<\/p>","text_alignment":"center","show_popup_newsletter":true,"popup_delay":1,"popup_reappear_time":"7","popup_image":"shopify:\/\/shop_images\/Untitled-1_3.jpg","popup_heading_font_size_desktop":20,"popup_heading_font_size_mobile":18}},"newsletter":{"type":"newsletter","settings":{"color":"#222","background":"#ffffff","title":"Newsletter","content":"<p>Let's keep in touch<\/p>"}},"product-features":{"type":"product-features","blocks":{"1528250359730":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":"","button_style":"primary"}},"1528250384489":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":"","button_style":"primary"}}},"block_order":["1528250359730","1528250384489"],"settings":{"blocks_alignment":"center","heading_font_size":28,"text_font_size":14}},"rich-text":{"type":"rich-text","settings":{"layout":"split","heading_align":"left","heading_font_size":28,"text_font_size":16,"subheading":"Humble Beginnings","title":"","content":"","accent_line":"none","accent_line_color":"#333333","cta":"","link":"","button_style":"primary","button_position":"right"}},"icons-row":{"type":"icons-row","blocks":{"1528250366509":{"type":"text","settings":{"icon_name":"shop","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250367690":{"type":"text","settings":{"icon_name":"sync","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250369041":{"type":"text","settings":{"icon_name":"target","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}}},"block_order":["1528250366509","1528250367690","1528250369041"],"settings":{"color_icons_bg":"#fafafa","color_icons_text":"#333333"}},"1532039018217":{"type":"featured-collection","settings":{"title":"New Arrivals","collection1":"seasonal-new-arrivals","products_layout":"grid","pro_count":20,"show_button":true,"button_style":"primary"}},"1532039050804":{"type":"testimonials","blocks":{"1532039050804-1":{"type":"testimonial","settings":{"blockquote":"Wow! This Boutique has unique clothing from different countries, which makes them different than your ordinary clothing off the rack.  The prices vary so you can find something in your budget. The store has a European flair style to it.  The owner, Stella, is wonderfully knowledgeable about her clothing  lines and will definitely be able to put a wonderful  ensemble or wardrobe together for you. You will leave knowing that you have met a new friend and someone that will help with your future wardrobe needs.  I have been a client for over 3 years and will remain one forever....a must see stop on your Montana Ave. Walk","author":"Sylvia S."}},"1532039050804-0":{"type":"testimonial","settings":{"blockquote":"I HIGHLY recommend Estell Boutique to get anything from casual outfits to dresses.  I've been coming here for years and what is so great is that the new items I purchase can be coordinated well with the items I purchased in previous seasons.  The owner, Stella, does a great job of listening to my needs and helps select things that work well for my body type.  I always get compliments because the items are unique and great colors.  I've purchased everything from clothes to accessories (camisoles, jewelry, purses, scarfs).  I just wish she sold shoes! ;-)","author":"Mary Jo O."}},"1532039050804-2":{"type":"testimonial","settings":{"blockquote":"Whenever I am visiting my daughter in Santa Monica, Estell Boutique is always my first stop! Half my closet is filled with great pieces from this adorable boutique. Stella has always helped me put together an outfit for every occasion! She remembers my style and is eager to show me something that has just arrived. She is honest and sincerely wants to find something that makes me feel confident and comfortable. She has a rack outside of clothing on sale that draws you inside! I can never just walk by...everything she has is very different and easily coordinates with outfits I currently have. Prices are reasonable and her staff is very helpful! I always look forward to my next visit!","author":"Sandra P."}}},"block_order":["1532039050804-1","1532039050804-0","1532039050804-2"],"settings":{"title":"Hear What People are Saying","title_position":"center","blocks_text_align":"justify","hide_quotes":true,"columns":3,"accent_line":"curved","accent_line_color":"#e75c39"}},"list-collections-page-template":{"type":"list-collections-page-template","settings":{"show_description":true,"collections_columns":2,"coll_text_position":"center","button_text":"Shop Now","button_style":"primary","text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":0}},"blog-template":{"type":"blog-template","settings":{"show_blog_name":true,"show_rss":false,"show_featured_post":true,"tags":true,"author":true,"show_comments":true,"layout":"wrapped","image_size":"large","article_rows":4,"article_columns":4,"accent_line":"straight","accent_line_color":"#333333"}},"slideshow":{"type":"slideshow","blocks":{"1532039480983":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1532039484050":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1532039480983","1532039484050"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"slide","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"1532039811262":{"type":"mosaic","blocks":{"1532039811262-0":{"type":"text","settings":{"title":"Trending Now","subheading":"","text":"","button_label":"Shop the Collection","button_link":"shopify:\/\/collections\/womens-casual-clothing-sidewalk-sale","button_style":"primary"}},"1532039811262-1":{"type":"product","settings":{"product":"asymmetrical-hemline-maxi-dress-green","overlay_color":"#333333","overlay_opacity":30}},"1532039811262-2":{"type":"product","settings":{"product":"asymmetrical-hemline-maxi-dress-vine","overlay_color":"#333333","overlay_opacity":10}}},"block_order":["1532039811262-0","1532039811262-1","1532039811262-2"],"settings":{"image":"shopify:\/\/shop_images\/unnamed_3.jpg","overlay_color":"#ff9191","overlay_opacity":0,"image_text":"","image_link":"","hide_image_mobile":false,"blocks_height":"full-height","blocks_layout":"offset","text_color":"white"}},"faq-section__product":{"type":"faq-section__product","settings":{"subheading":"","title":""}},"related-products":{"type":"related-products","settings":{"related_products_enable":true,"limit":4,"product_recommendations_heading":"Related products"}},"1589483078458":{"type":"collection-list","blocks":{"1589483078458-2":{"type":"collection","settings":{"collection":"accessories"}},"1589483078458-3":{"type":"collection","settings":{"collection":"best-sellers-womens-boutique-shopping","image":"shopify:\/\/shop_images\/3O8A5538.jpg"}},"1589483078458-4":{"type":"collection","settings":{"collection":"cardigans-dusters"}}},"block_order":["1589483078458-2","1589483078458-3","1589483078458-4"],"settings":{"title":"","subtitle":"","blocks_height":"default-height","coll_text_position":"center","show_description":true,"button_text":"Shop Now","button_style":"primary","text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":37}},"1589483291884":{"type":"featured-collection","settings":{"title":"Best Sellers","collection1":"best-sellers-womens-boutique-shopping","products_layout":"grid","pro_count":20,"show_button":false,"button_style":"primary"}},"1589485376383":{"type":"newsletter","settings":{"color":"#222222","background":"#ffffff","title":"Newsletter","content":"<p>Let&#x27;s keep in touch<\/p>"}},"1589577248928":{"type":"rich-text","settings":{"layout":"split","heading_align":"left","heading_font_size":28,"text_font_size":16,"subheading":"NOT SURE WHAT TO GET?","title":"Grab a Gift Card!","content":"<p>Click the button below to grab a gift card for someone special in your life<\/p>","accent_line":"curved","accent_line_color":"#b8100e","cta":"Buy A Gift Card","link":"https:\/\/estells-boutique.myshopify.com\/products\/gift-card","button_style":"primary","button_position":"right"}},"page-template":{"type":"page-template","settings":{"show_page_title":true}},"icon_with_text_t9WLpi":{"type":"icon-with-text","settings":{}},"contact-template":{"type":"contact-template","blocks":{"text_pyyjeU":{"type":"text","settings":{"title":"Name"}},"email_JXPemN":{"type":"email","settings":{"title":"Email"}},"body_w7pXcT":{"type":"body","settings":{"title":"Message"}}},"block_order":["text_pyyjeU","email_JXPemN","body_w7pXcT"],"settings":{"show_page_title":true}},"custom_html_xpfH7g":{"type":"custom-html","settings":{"subheading":"","title":"@Estellboutique","html":"<div class=\"tagembed-container\" style=\"width:100%;height:100%;overflow: auto;\"><div class=\"tagembed-socialwall\" data-wall-id=\"2138042\"><\/div><\/div>"}}},"content_for_index":["1498737500673","1532039018217","1532039811262","1589483291884","1532039050804","1589577248928","1589485376383","1589483078458","custom_html_xpfH7g","icon_with_text_t9WLpi"],"blocks":{"5059203847231188605":{"type":"shopify:\/\/apps\/smart-product-filter-search\/blocks\/app-embed\/5cc1944c-3014-4a2a-af40-7d65abc0ef73","disabled":false,"settings":{"productGridSelector":"","useCustomQuickviewTemplate":false,"customJs":"","customCss":"#gf-tree .noUi-marker-horizontal.noUi-marker {\n  display: none !important;\n}\n\n.gf-range-inputs input[type=text] {\n  padding: 10px !important;\n  border-color: rgba(56, 56, 56, .3) !important;\n  font-size: 14px !important;\n  height: 30px !important;\n}\n\n#gf-tree .noUi-handle {\n  border: 5px solid #383838 !important;\n  display: block !important;\n  outline: none !important;\n  position: absolute !important;\n  top: -7px !important;\n  right: -10px !important;\n  width: 20px !important;\n  height: 20px !important;\n  border-radius: 3px !important;\n  border: 1px solid #000 !important;\n  background: #fff url(\"data:image\/svg+xml,%3Csvg width='5' height='6' viewBox='0 0 5 6' fill='none' xmlns='http:\/\/www.w3.org\/2000\/svg'%3E%3Cpath d='M0 0H1V6H0V0Z' fill='%23103A3A'\/%3E%3Cpath d='M2 0H3V6H2V0Z' fill='%23103A3A'\/%3E%3Cpath d='M4 0H5V6H4V0Z' fill='%23103A3A'\/%3E%3C\/svg%3E%0A\") center center no-repeat !important; !important;\n  backface-visibility: hidden !important;\n}\n\n#gf-tree .noUi-connects {\n  background: #d8d8d8 !important;\n}\n\n#gf-tree .noUi-connect {\n  background: #383838 !important;\n}\n\n#gf-tree .noUi-base,\n#gf-tree .noUi-connects {\n  height: 4px !important;\n}\n\n.gf-range-inputs {\n  margin-bottom: 30px !important;\n}\n\n#gf-tree .noUi-value-large {\n  font-size: 14px !important;\n}\n\n.spf-has-filter.spf-layout-theme .checked .gf-Checkbox {\n  background: transparent;\n}\n\n.spf-has-filter.spf-layout-theme .checked .gf-Checkbox:after {\n  content: '';\n  width: 10px;\n  height: 10px;\n  background-color: #B72124;\n  position: absolute;\n  top: 2px;\n  left: 2px;\n}\n\n.spf-has-filter.spf-layout-theme .checked .gf-RadioButton:before {\n  background: #000;\n}","customProductTemplateLoader":"{%- capture productTemplate -%}{% render 'globo.filter.product', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id=\"gspfProduct\" type=\"template\/html\">{{- productTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}","customTreeTemplateLoader":"{%- capture treeTemplate -%}{% render 'globo.filter.tree' %}{%- endcapture -%}{%- unless treeTemplate contains 'Liquid error' -%}<script id=\"gspfFilterTree\" type=\"template\/html\">{{- treeTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}","customSortTemplateLoader":"{%- capture sortTemplate -%}{% render 'globo.filter.sort' %}{%- endcapture -%}{%- unless sortTemplate contains 'Liquid error' -%}<script id=\"gspfFilterSort\" type=\"template\/html\">{{- sortTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}","customSearchTemplateLoader":"{%- capture searchTemplate -%}{% render 'globo.filter.search' %}{%- endcapture -%}{%- unless searchTemplate contains 'Liquid error' -%}<script id=\"gspfSearchResult\" type=\"template\/html\">{{- searchTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}","customPaginationTemplateLoader":"{%- capture paginationTemplate -%}{% render 'globo.filter.pagination' %}{%- endcapture -%}{%- unless paginationTemplate contains 'Liquid error' -%}<script id=\"gspfPagination\" type=\"template\/html\">{{- paginationTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}","customYMMTemplateLoader":"{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template\/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}"}},"13768625480086291342":{"type":"shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a","disabled":false,"settings":{}}}},"presets":{"Chelsea":{"color_heading_new":"#000000","color_text_new":"#000000","color_error_new":"#d02e2e","color_border_new":"#000000","color_background_new":"#ffffff","color_button_primary_bg":"#8dcbe9","color_button_secondary_bg":"#ffffff","color_top_bar":"#8dcbe9","color_top_bar_text":"#000000","color_header_bg_home":"rgba(0,0,0,0)","color_header_text_home":"#ffffff","color_header_bg":"rgba(0,0,0,0)","color_header_text":"#000000","color_header_bg_scroll":"#ffffff","color_header_text_scroll":"#000000","color_dropdown_bg":"#ffffff","color_dropdown_text":"#000000","drawer_bg_color":"#ffffff","drawer_text_color":"#000000","header_icon_color_home":"#000000","header_bg_color_home":"#ffffff","header_icon_color":"#000000","header_bg_color":"#ffffff","header_icon_color_scroll":"#222222","header_bg_color_scroll":"#ffffff","color_badge_bg":"#8dcbe9","color_footer_text":"#000000","color_footer_bg":"#ffffff","color_bottom_bar_bg":"#fafafa","header_font_picker":"nunito_n4","base_font_size":12,"heading_letter_spacing":0,"general_font_picker":"nunito_sans_n4","body_font_size":14,"body_letter_spacing":0,"transition_grid_items":true,"transition_product_features":true,"transition_images_fade":true,"transition_collections_list":true,"show_search":true,"search_suggested_collection":"","search_suggested_page_1":"","search_suggested_page_2":"","search_suggested_blog":"","search_suggested_collection_heading":"","search_suggested_pages_heading":"","search_suggested_blog_heading":"","search_suggested_text_color":"#ffffff","search_suggested_overlay_color":"#333333","search_suggested_overlay_opacity":0,"image_aspect_ratio":1,"image_size":"cover","show_quick_view":true,"show_quick_view_description":true,"show_quantity":true,"hover_image":false,"enable_payment_button":true,"color_swatches":true,"color_swatches_style":"circle","products_rows":4,"products_columns":4,"enable_video_looping":false,"enable_ajax_cart":true,"enable_cart_order_notes":false,"show_continue_shopping":true,"tax_text":"Excluding taxes and shipping","show_custom_cursor":false,"custom_cursor_image":"","show_breadcrumbs":true,"show_reviews":true,"enable_yotpo":false,"yotpo_ID":"","favicon":"","social_share_image":"","twitter_url":"","facebook_url":"","pinterest_url":"","instagram_url":"","tumblr_url":"","youtube_url":"","rss_url":"","share_on_twitter":true,"share_on_facebook":true,"share_on_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#197bbd","checkout_button_color":"#197bbd","checkout_error_color":"#e32c2b","color_primary_new":"#8DCBE9","color_secondary_new":"#000000","color_overlay_bg":"#000000","promo_url":"","promo_banner_style":"primary","logo_enabled":true,"promo_url_enabled":false,"browse_by_tag_enabled":false,"collection_collectionGrid_columns":"3","nav_bg_color":"#f4f4f4","nav_text_color":"#222222","twitter_via":"","sections":{"header":{"type":"header","settings":{"logo":"","logo_other":"","logo_max_width":100,"show_site_name":true,"menu_list":"main-menu","links_position":"links_center","logo_position":"logo_left","meganav_image":"","meganav_image_heading":"","meganav_image_link":"","show_announcement":true,"show_announcement_on_mobile":true,"text":"<p>Broadcast sales, promos, or other offerings here<\/p>","link":""}},"collection-template":{"type":"collection-template","settings":{"show_title":true,"show_sort_filter":true,"show_banner":true,"banner_height":"normal","banner_subheading":"","banner_text_position":"center","heading_size":"normal","text_size":"normal","banner_color_text":"#ffffff","banner_color_overlay":"#333333","banner_overlay_opacity":0,"featured":"none","featured_image":"","featured_heading":"Use this image showcase promotional content.","featured_text":"<p>Elaborate on it with rich text<\/p>","featured_button_text":"Learn More","featured_button_link":"","featured_button_style":"primary","featured_color_text":"#ffffff","featured_color_overlay":"#333333","featured_overlay_opacity":0}},"1498737500673":{"type":"slideshow","blocks":{"1498737500673-0":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Learn More","link":"","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1498737500673-1":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Learn More","link":"","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1498737500673-0","1498737500673-1"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"zoom-out","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"product-template":{"type":"product-template","settings":{"product_layout":"slideshow","image_gallery":"lightbox","image_size":"large","add_cart_position":"top","show_vendor":true,"show_quantity":false,"show_cart_bar":true,"enable_payment_button":true,"show_newsletter":true,"text_newsletter":"<p>Notify me when this product is available:<\/p>","page_tab_1":"","page_tab_2":"","page_tab_3":"","product_slideshow_dots":false,"product_slideshow_arrows":false,"enable_video_looping":false}},"footer":{"type":"footer","blocks":{"1528202808725":{"type":"menu","settings":{"menu":"footer","title":"Helpful Links","mobile_hide_block":true}},"1582813156290":{"type":"text","settings":{"title":"Information","text":"<p>This text block is a great place to discuss shipping policies, or terms and conditions info.<\/p>","mobile_hide_block":false}},"1582813160258":{"type":"newsletter","settings":{"title":"Newsletter","content":"","mobile_hide_block":false}}},"block_order":["1528202808725","1582813156290","1582813160258"],"settings":{"show_payment_icons":true,"show_social_icons":true,"menu":""}},"popup":{"type":"popup","settings":{"show_popup":"disabled","popup_header":"Use the popup to catch emails and showcase promotions","popup_content":"<p>Popups can detract from a user's experience, so try to limit how often they appear.<\/p>","text_alignment":"center","show_popup_newsletter":true,"popup_delay":5,"popup_reappear_time":"7","popup_image":""}},"newsletter":{"type":"newsletter","settings":{"color":"#222","background":"#ffffff","title":"Newsletter","content":"<p>Let's keep in touch<\/p>"}},"product-features":{"type":"product-features","blocks":{"1528250359730":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":"","button_style":"primary"}},"1528250384489":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":"","button_style":"primary"}}},"block_order":["1528250359730","1528250384489"],"settings":{"blocks_alignment":"center","heading_font_size":28,"text_font_size":14}},"rich-text":{"type":"rich-text","settings":{"layout":"split","heading_align":"left","heading_font_size":28,"text_font_size":16,"subheading":"Humble Beginnings","title":"","content":"","accent_line":"none","accent_line_color":"#333333","cta":"","link":"","button_style":"primary","button_position":"left"}},"icons-row":{"type":"icons-row","blocks":{"1528250366509":{"type":"text","settings":{"icon_name":"shop","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250367690":{"type":"text","settings":{"icon_name":"sync","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250369041":{"type":"text","settings":{"icon_name":"target","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}}},"block_order":["1528250366509","1528250367690","1528250369041"],"settings":{"color_icons_bg":"#fafafa","color_icons_text":"#333333"}},"1532039018217":{"type":"featured-collection","settings":{"title":"","collection1":"frontpage","products_layout":"grid","show_button":true,"button_style":"primary"}},"1532039050804":{"type":"testimonials","blocks":{"1532039050804-0":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}},"1532039050804-1":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}},"1532039050804-2":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}}},"block_order":["1532039050804-0","1532039050804-1","1532039050804-2"],"settings":{"title":"","title_position":"center","blocks_text_align":"justify","hide_quotes":false,"columns":3,"accent_line":"straight","accent_line_color":"#8dcbe9"}},"1532039073433":{"type":"image-with-text","blocks":{"1532039073433-0":{"type":"gallery_image","settings":{"slide":""}},"1532039073433-1":{"type":"gallery_image","settings":{"slide":""}}},"block_order":["1532039073433-0","1532039073433-1"],"settings":{"showNavArrows":true,"color_style":"white","transition":"fade","autoplay":true,"duration":4,"show_margins":false,"slide_height":"five-fifty-height-hero","slide_image_position":"left","slide_image_width":"med_s12|med_s12","subheading":"Humble Beginnings","title":"Tell a Story","content":"<p>By showcasing a product, collection, or your brand.<\/p>","cta":"Shop Now","link":"","button_style":"primary"}},"list-collections-page-template":{"type":"list-collections-page-template","settings":{"show_description":true,"collections_columns":2,"coll_text_position":"center","button_text":"Shop Now","text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":0}},"blog-template":{"type":"blog-template","settings":{"show_blog_name":false,"show_rss":false,"show_featured_post":true,"tags":true,"author":true,"show_comments":true,"layout":"wrapped","image_size":"large","article_rows":4,"article_columns":4,"accent_line":"straight","accent_line_color":"#333333"}},"slideshow":{"type":"slideshow","blocks":{"1532039480983":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1532039484050":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1532039480983","1532039484050"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"fade","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"1532041611167":{"type":"collection-list","blocks":{"1532041611167-0":{"type":"collection","settings":{"collection":"","image":""}},"1532041611167-1":{"type":"collection","settings":{"collection":"","image":""}},"1532041611167-2":{"type":"collection","settings":{"collection":"","image":""}},"1532041611167-3":{"type":"collection","settings":{"collection":"","image":""}},"1532041611167-4":{"type":"collection","settings":{"collection":"","image":""}}},"block_order":["1532041611167-0","1532041611167-1","1532041611167-2","1532041611167-3","1532041611167-4"],"settings":{"title":"","subtitle":"","blocks_height":"default-height","coll_text_position":"bottom_left","show_description":true,"text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":0}},"1532041725090":{"type":"slideshow","blocks":{"1532041725090-0":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"Humble Beginnings","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1532041725090-0"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"fade","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"1583105953406":{"type":"rich-text","settings":{"layout":"split","heading_align":"left","heading_font_size":28,"text_font_size":16,"subheading":"Humble Beginnings","title":"Modular is a powerful Shopify theme that will set you apart from the rest.","content":"<p>It features ample space to showcase your imagery with Mosaic, Image with text, and Slideshow sections ... and even this Rich Text section itself.<\/p>","accent_line":"none","accent_line_color":"#333333","cta":"Learn More","link":"","button_style":"primary","button_position":"right"}},"faq-section__product":{"type":"faq-section__product","settings":{"subheading":"","title":""}},"related-products":{"type":"related-products","settings":{"related_products_enable":true,"limit":4,"product_recommendations_heading":"Related products"}}},"content_for_index":["1498737500673","1583105953406","1532039073433","1532039018217","1532041611167","1532039050804","1532041725090"]},"Mayfair":{"color_heading_new":"#000000","color_text_new":"#000000","color_primary_new":"#000000","color_secondary_new":"#000000","color_border_new":"#000000","color_background_new":"#ffffff","color_button_primary_bg":"#333333","color_top_bar":"#ffffff","color_top_bar_text":"#000000","color_header_bg_home":"rgba(0,0,0,0)","color_header_text_home":"#ffffff","color_header_bg":"rgba(0,0,0,0)","color_header_text":"#000000","color_header_bg_scroll":"#ffffff","color_header_text_scroll":"#000000","color_dropdown_bg":"#ffffff","color_dropdown_text":"#000000","drawer_bg_color":"#ffffff","drawer_text_color":"#000000","header_icon_color_home":"#000000","header_bg_color_home":"#ffffff","header_icon_color":"#000000","header_bg_color":"#ffffff","color_badge_bg":"#2e3234","color_footer_text":"#000000","color_footer_bg":"#ffffff","color_bottom_bar_bg":"#fafafa","header_font_picker":"playfair_display_n9","base_font_size":12,"heading_letter_spacing":0,"general_font_picker":"work_sans_n4","body_font_size":14,"body_letter_spacing":0,"enable_cart_order_notes":false,"show_custom_cursor":false,"enable_payment_button":true,"custom_cursor_image":"","show_breadcrumbs":true,"favicon":"","twitter_url":"","facebook_url":"","pinterest_url":"","instagram_url":"","tumblr_url":"","youtube_url":"","rss_url":"","share_on_twitter":true,"share_on_facebook":true,"share_on_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#197bbd","checkout_button_color":"#197bbd","checkout_error_color":"#e32c2b","color_overlay_bg":"#000000","color_seconsdary_new":"#2e3234","promo_banner_style":"primary","promo_url_enabled":false,"logo_enabled":true,"browse_by_tag_enabled":true,"collection_collectionGrid_columns":"3","nav_bg_color":"#f4f4f4","nav_text_color":"#222222","twitter_via":"","sections":{"header":{"type":"header","settings":{"logo":"","logo_other":"","logo_max_width":100,"show_site_name":true,"menu_list":"main-menu","links_position":"links_center","logo_position":"logo_left","meganav_image":"","meganav_image_heading":"","meganav_image_link":"","show_announcement":true,"show_announcement_on_mobile":true,"text":"<p>Broadcast sales, promos, or other offerings here<\/p>","link":""}},"collection-template":{"type":"collection-template","settings":{"show_title":true,"show_sort_filter":true,"show_banner":true,"banner_height":"normal","banner_subheading":"","banner_text_position":"bottom-left","heading_size":"normal","text_size":"normal","banner_color_text":"#ffffff","banner_color_overlay":"#333333","banner_overlay_opacity":0,"featured":"none","featured_image":"","featured_heading":"Use this image showcase promotional content.","featured_text":"<p>Elaborate on it with rich text<\/p>","featured_button_text":"Learn More","featured_button_link":"","featured_color_text":"#ffffff","featured_color_overlay":"#333333","featured_overlay_opacity":0}},"1498737500673":{"type":"slideshow","blocks":{"1498737500673-0":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Learn More","link":"","cta_2":"","link_2":"","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1498737500673-1":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Learn More","link":"","cta_2":"Shop Now","link_2":"","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1498737500673-0","1498737500673-1"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"zoom-out","dots_position":"center","slide_height":"five-fifty-height-hero"}},"product-template":{"type":"product-template","settings":{"product_layout":"slideshow","image_gallery":"zoom","image_size":"large","show_vendor":false,"show_quantity":true,"show_cart_bar":true,"show_newsletter":true,"text_newsletter":"<p>Notify me when this product is available:<\/p>","page_tab_1":"","page_tab_2":"","page_tab_3":"","product_slideshow_dots":false,"product_slideshow_arrows":false}},"footer":{"type":"footer","blocks":{"1528202808725":{"type":"menu","settings":{"menu":"footer","title":"Helpful Links","mobile_hide_block":true}},"1582813156290":{"type":"text","settings":{"title":"Information","text":"<p>This text block is a great place to discuss shipping policies, or terms and conditions info.<\/p>","mobile_hide_block":false}},"1582813160258":{"type":"newsletter","settings":{"title":"Newsletter","content":"","mobile_hide_block":false}}},"block_order":["1528202808725","1582813156290","1582813160258"],"settings":{"show_payment_icons":true,"show_social_icons":true,"menu":""}},"popup":{"type":"popup","settings":{"show_popup":"disabled","show_popup_newsletter":true,"popup_delay":5,"popup_reappear_time":"7","popup_image":""}},"newsletter":{"type":"newsletter","settings":{"color":"#222","background":"#ffffff","title":"Newsletter","content":"<p>Let's keep in touch<\/p>"}},"product-features":{"type":"product-features","blocks":{"1528250359730":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":""}},"1528250384489":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":""}}},"block_order":["1528250359730","1528250384489"],"settings":{"blocks_alignment":"center"}},"rich-text":{"type":"rich-text","settings":{"layout":"split","title":"","content":"","cta":"","link":""}},"icons-row":{"type":"icons-row","blocks":{"1528250366509":{"type":"text","settings":{"icon_name":"shop","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250367690":{"type":"text","settings":{"icon_name":"sync","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250369041":{"type":"text","settings":{"icon_name":"target","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}}},"block_order":["1528250366509","1528250367690","1528250369041"],"settings":{"color_icons_bg":"#fafafa","color_icons_text":"#333333"}},"1532038945687":{"type":"rich-text","settings":{"layout":"split","title":"Describe your products or brand in detail here","content":"<p>Modular is a powerful Shopify theme that will set you apart from the rest. It features ample space to showcase your imagery with Mosaic, Image with text, and Slideshow sections.<\/p>","cta":"","link":""}},"1532038978596":{"type":"collection-list","blocks":{"1532038978596-0":{"type":"collection","settings":{"collection":"","image":""}},"1532038978596-1":{"type":"collection","settings":{"collection":"","image":""}},"1532038978596-2":{"type":"collection","settings":{"collection":"","image":""}},"1532038978596-3":{"type":"collection","settings":{"collection":"","image":""}},"1532038978596-4":{"type":"collection","settings":{"collection":"","image":""}}},"block_order":["1532038978596-0","1532038978596-1","1532038978596-2","1532038978596-3","1532038978596-4"],"settings":{"title":"","subtitle":"","blocks_height":"default-height","coll_text_position":"center","show_description":true,"text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":0}},"1532039018217":{"type":"featured-collection","settings":{"title":"","collection1":"frontpage"}},"1532039029252":{"type":"mosaic","blocks":{"1532039029252-0":{"type":"text","settings":{"title":"Featured collection","subheading":"Best Seller","text":"Showcase a two of your best products, video, a collection, or text with the blocks in this section.","button_label":"Shop now","button_link":""}},"1532039029252-1":{"type":"product","settings":{"product":""}},"1532039029252-2":{"type":"product","settings":{"product":""}}},"block_order":["1532039029252-0","1532039029252-1","1532039029252-2"],"settings":{"image":"","image_text":"","image_link":"","hide_image_mobile":false,"blocks_layout":"offset"}},"1532039050804":{"type":"testimonials","blocks":{"1532039050804-0":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}},"1532039050804-1":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}},"1532039050804-2":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}}},"block_order":["1532039050804-0","1532039050804-1","1532039050804-2"],"settings":{"title":"","title_position":"left","blocks_text_align":"justify","hide_quotes":false,"accent_line":"straight","accent_line_color":"#333333"}},"1532039073433":{"type":"image-with-text","blocks":{"1532039073433-0":{"type":"gallery_image","settings":{"slide":""}},"1532039073433-1":{"type":"gallery_image","settings":{"slide":""}}},"block_order":["1532039073433-0","1532039073433-1"],"settings":{"showNavArrows":true,"color_style":"white","autoplay":true,"duration":4,"show_margins":false,"slide_height":"five-fifty-height-hero","slide_image_position":"left","slide_image_width":"med_s12|med_s12","subheading":"Humble Beginnings","title":"Tell a Story","content":"<p>By showcasing a product, collection, or your brand.<\/p>","cta":"Shop Now","link":""}},"1532039110708":{"type":"featured-blog","settings":{"blogName":"news","heading":"","text":"","cta":"","tags":true,"author":true,"article_rows":1,"article_columns":4}},"1532039127139":{"type":"map","settings":{"api_key":"","map_address":"5 Rue Saint-Jacques, Paris, France 75005","map_height":"five-fifty-height-hero","location_title":"Modular","location_subheading":"Come visit our store","address":"566 Emerson Street\nPalo Alto, California","hours":"Mon - Fri, 8am - 11pm\nSaturday, 8am - 12pm\nSunday, 9am - 11pm","card_color":"#ffffff","style":"retro","zoom":12,"background_image":""}},"list-collections-page-template":{"type":"list-collections-page-template","settings":{"show_description":true,"collections_columns":2,"coll_text_position":"center","button_text":"Shop Now","text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":0}},"blog-template":{"type":"blog-template","settings":{"show_blog_name":false,"show_rss":false,"show_featured_post":true,"tags":true,"author":true,"show_comments":true,"article_rows":4,"article_columns":4,"accent_line":"straight","accent_line_color":"#333333"}},"slideshow":{"type":"slideshow","blocks":{"1532039480983":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_2":"","link_2":"","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1532039484050":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_2":"","link_2":"","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1532039480983","1532039484050"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"slide","dots_position":"center","slide_height":"five-fifty-height-hero"}}},"content_for_index":["1498737500673","1532038945687","1532038978596","1532039018217","1532039029252","1532039050804","1532039073433","1532039127139","1532039110708"]},"Hoxton":{"color_heading_new":"#000000","color_text_new":"#000000","color_error_new":"#d02e2e","color_border_new":"#000000","color_background_new":"#ffffff","color_button_primary_bg":"#2b558d","color_button_secondary_bg":"#ffffff","color_top_bar":"#2b558d","color_top_bar_text":"#ffffff","color_header_bg_home":"rgba(0,0,0,0)","color_header_text_home":"#ffffff","color_header_bg":"rgba(0,0,0,0)","color_header_text":"#000000","color_header_bg_scroll":"#ffffff","color_header_text_scroll":"#000000","color_dropdown_bg":"#ffffff","color_dropdown_text":"#000000","drawer_bg_color":"#ffffff","drawer_text_color":"#000000","header_icon_color_home":"#000000","header_bg_color_home":"#ffffff","header_icon_color":"#000000","header_bg_color":"#ffffff","header_icon_color_scroll":"#222222","header_bg_color_scroll":"#ffffff","color_badge_bg":"#2e3234","color_footer_text":"#000000","color_footer_bg":"#ffffff","color_bottom_bar_bg":"#fafafa","header_font_picker":"glegoo_n4","base_font_size":12,"heading_letter_spacing":0,"general_font_picker":"work_sans_n4","body_font_size":14,"body_letter_spacing":0,"transition_grid_items":true,"transition_product_features":true,"transition_images_fade":true,"transition_collections_list":true,"show_search":true,"search_suggested_collection":"","search_suggested_page_1":"","search_suggested_page_2":"","search_suggested_blog":"","search_suggested_collection_heading":"","search_suggested_pages_heading":"","search_suggested_blog_heading":"","search_suggested_text_color":"#ffffff","search_suggested_overlay_color":"#333333","search_suggested_overlay_opacity":0,"image_aspect_ratio":1,"image_size":"cover","show_quick_view":true,"show_quick_view_description":true,"price_hover":false,"show_quantity":true,"hover_image":false,"enable_payment_button":true,"color_swatches":true,"color_swatches_style":"circle","products_rows":4,"products_columns":4,"enable_video_looping":false,"enable_ajax_cart":true,"enable_cart_order_notes":false,"show_continue_shopping":true,"tax_text":"Excluding taxes and shipping","show_custom_cursor":false,"custom_cursor_image":"","show_breadcrumbs":true,"show_reviews":true,"enable_yotpo":false,"yotpo_ID":"","favicon":"","social_share_image":"","twitter_url":"","facebook_url":"","pinterest_url":"","instagram_url":"","tumblr_url":"","youtube_url":"","rss_url":"","share_on_twitter":true,"share_on_facebook":true,"share_on_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#197bbd","checkout_button_color":"#197bbd","checkout_error_color":"#e32c2b","color_primary_new":"#2b558d","color_secondary_new":"#000000","color_overlay_bg":"#000000","color_seconsdary_new":"#2e3234","promo_banner_style":"primary","promo_url_enabled":false,"logo_enabled":true,"browse_by_tag_enabled":true,"collection_collectionGrid_columns":"3","nav_bg_color":"#f4f4f4","nav_text_color":"#222222","twitter_via":"","sections":{"header":{"type":"header","settings":{"logo":"","logo_other":"","logo_max_width":100,"show_site_name":true,"menu_list":"main-menu","links_position":"links_center","logo_position":"logo_left","meganav_image":"","meganav_image_heading":"","meganav_image_link":"","show_announcement":true,"show_announcement_on_mobile":true,"text":"<p>Broadcast sales, promos, or other offerings here<\/p>","link":""}},"collection-template":{"type":"collection-template","settings":{"show_title":true,"show_sort_filter":true,"show_banner":true,"banner_height":"normal","banner_subheading":"","banner_text_position":"bottom-left","heading_size":"normal","text_size":"normal","banner_color_text":"#ffffff","banner_color_overlay":"#333333","banner_overlay_opacity":0,"featured":"none","featured_image":"","featured_heading":"Use this image showcase promotional content.","featured_text":"<p>Elaborate on it with rich text<\/p>","featured_button_text":"Learn More","featured_button_link":"","featured_button_style":"primary","featured_color_text":"#ffffff","featured_color_overlay":"#333333","featured_overlay_opacity":0}},"1498737500673":{"type":"slideshow","blocks":{"1498737500673-0":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Learn More","link":"","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1498737500673-1":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Learn More","link":"","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1498737500673-0","1498737500673-1"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"fade","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"product-template":{"type":"product-template","settings":{"product_layout":"scrollable","image_gallery":"lightbox","image_size":"large","add_cart_position":"top","show_vendor":true,"show_quantity":false,"show_cart_bar":true,"enable_payment_button":true,"show_newsletter":true,"text_newsletter":"<p>Notify me when this product is available:<\/p>","page_tab_1":"","page_tab_2":"","page_tab_3":"","product_slideshow_dots":false,"product_slideshow_arrows":false,"enable_video_looping":false}},"footer":{"type":"footer","blocks":{"1528202808725":{"type":"menu","settings":{"menu":"footer","title":"Helpful Links","mobile_hide_block":true}},"1582813156290":{"type":"text","settings":{"title":"Information","text":"<p>This text block is a great place to discuss shipping policies, or terms and conditions info.<\/p>","mobile_hide_block":false}},"1582813160258":{"type":"newsletter","settings":{"title":"Newsletter","content":"","mobile_hide_block":false}}},"block_order":["1528202808725","1582813156290","1582813160258"],"settings":{"show_payment_icons":true,"show_social_icons":true,"menu":""}},"popup":{"type":"popup","settings":{"show_popup":"disabled","popup_header":"Use the popup to catch emails and showcase promotions","popup_content":"<p>Popups can detract from a user's experience, so try to limit how often they appear.<\/p>","text_alignment":"center","show_popup_newsletter":true,"popup_delay":5,"popup_reappear_time":"7","popup_image":""}},"newsletter":{"type":"newsletter","settings":{"color":"#222","background":"#ffffff","title":"Newsletter","content":"<p>Let's keep in touch<\/p>"}},"product-features":{"type":"product-features","blocks":{"1528250359730":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":"","button_style":"primary"}},"1528250384489":{"type":"text","settings":{"heading":"This is a heading for a Product feature block.","description":"<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>","image":"","image_link":"","button_text":"","button_link":"","button_style":"primary"}}},"block_order":["1528250359730","1528250384489"],"settings":{"blocks_alignment":"center","heading_font_size":28,"text_font_size":14}},"rich-text":{"type":"rich-text","settings":{"layout":"split","heading_align":"left","heading_font_size":28,"text_font_size":16,"subheading":"Humble Beginnings","title":"","content":"","accent_line":"none","accent_line_color":"#333333","cta":"","link":"","button_style":"primary","button_position":"right"}},"icons-row":{"type":"icons-row","blocks":{"1528250366509":{"type":"text","settings":{"icon_name":"shop","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250367690":{"type":"text","settings":{"icon_name":"sync","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1528250369041":{"type":"text","settings":{"icon_name":"target","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}}},"block_order":["1528250366509","1528250367690","1528250369041"],"settings":{"color_icons_bg":"#fafafa","color_icons_text":"#333333"}},"1532039018217":{"type":"featured-collection","settings":{"title":"","collection1":"frontpage","products_layout":"grid","show_button":true,"button_style":"primary"}},"1532039050804":{"type":"testimonials","blocks":{"1532039050804-0":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}},"1532039050804-1":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}},"1532039050804-2":{"type":"testimonial","settings":{"blockquote":"Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!","author":"John Doe"}}},"block_order":["1532039050804-0","1532039050804-1","1532039050804-2"],"settings":{"title":"","title_position":"center","blocks_text_align":"justify","hide_quotes":false,"columns":3,"accent_line":"straight","accent_line_color":"#333333"}},"1532039073433":{"type":"image-with-text","blocks":{"1532039073433-0":{"type":"gallery_image","settings":{"slide":""}},"1532039073433-1":{"type":"gallery_image","settings":{"slide":""}}},"block_order":["1532039073433-0","1532039073433-1"],"settings":{"showNavArrows":true,"color_style":"white","transition":"fade","autoplay":true,"duration":4,"show_margins":false,"slide_height":"five-fifty-height-hero","slide_image_position":"left","slide_image_width":"med_s12|med_s12","subheading":"Humble Beginnings","title":"Tell a Story","content":"<p>By showcasing a product, collection, or your brand.<\/p>","cta":"Shop Now","link":"","button_style":"primary"}},"1532039110708":{"type":"featured-blog","settings":{"layout":"wrapped","image_size":"large","blogName":"news","heading":"","text":"","cta":"","button_style":"primary","tags":true,"author":true,"article_rows":1,"article_columns":4}},"list-collections-page-template":{"type":"list-collections-page-template","settings":{"show_description":true,"collections_columns":2,"coll_text_position":"center","button_text":"Shop Now","text_color":"#ffffff","overlay_color":"#333333","overlay_opacity":0}},"blog-template":{"type":"blog-template","settings":{"show_blog_name":false,"show_rss":false,"show_featured_post":true,"tags":true,"author":true,"show_comments":true,"layout":"wrapped","image_size":"large","article_rows":4,"article_columns":4,"accent_line":"straight","accent_line_color":"#333333"}},"slideshow":{"type":"slideshow","blocks":{"1532039480983":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}},"1532039484050":{"type":"image","settings":{"image":"","image_mobile":"","image_position":"center-center","alignment":"center","content_width":"full-width","color_style":"white","subheading":"","title":"Welcome to Modular","text":"<p>A unique layout with a striking design<\/p>","cta":"Shop Now","link":"shopify:\/\/collections\/all","cta_primary_btn_style":"primary","cta_2":"","link_2":"","cta_secondary_btn_style":"secondary","heading_size":"normal","text_size":"normal","overlay_color":"#333333","overlay_opacity":0}}},"block_order":["1532039480983","1532039484050"],"settings":{"showNavArrows":true,"show_arrow_down":false,"autoplay":true,"duration":4,"transition":"slide","dots_position":"center","slide_height":"five-fifty-height-hero","button_size":"normal"}},"1532039795680":{"type":"icons-row","blocks":{"1532039795680-0":{"type":"text","settings":{"icon_name":"shop","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1532039795680-1":{"type":"text","settings":{"icon_name":"sync","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}},"1532039795680-2":{"type":"text","settings":{"icon_name":"target","icon_image":"","title":"Feature","content":"Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."}}},"block_order":["1532039795680-0","1532039795680-1","1532039795680-2"],"settings":{"color_icons_bg":"#fafafa","color_icons_text":"#333333"}},"1532039811262":{"type":"mosaic","blocks":{"1532039811262-0":{"type":"text","settings":{"title":"Featured collection","subheading":"Best Seller","text":"Showcase a two of your best products, video, a collection, or text with the blocks in this section.","button_label":"Shop now","button_link":"","button_style":"primary"}},"1532039811262-1":{"type":"product","settings":{"product":""}},"1532039811262-2":{"type":"product","settings":{"product":""}}},"block_order":["1532039811262-0","1532039811262-1","1532039811262-2"],"settings":{"image":"","image_text":"","image_link":"","hide_image_mobile":false,"blocks_height":"default-height","blocks_layout":"offset"}},"1583106952546":{"type":"featured-video","settings":{"title":"Featured video","content":"<p>Describe in a few words your special products, collection, or brand.<\/p>","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","logo":"","logo_max_width":100,"heading_size":"normal","text_size":"normal","image":"","image_height":"five-fifty-height-hero","style":"light","overlay_color":"#333333","overlay_opacity":0}}},"content_for_index":["1498737500673","1532039795680","1532039811262","1532039018217","1532039073433","1532039050804","1583106952546","1532039110708"]}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "color_heading_new": "#b8100e",
+    "color_text_new": "#262525",
+    "color_error_new": "#d02e2e",
+    "color_border_new": "#000000",
+    "color_background_new": "#ffffff",
+    "color_button_primary_bg": "#b8100e",
+    "color_button_secondary_bg": "#ffffff",
+    "color_top_bar": "#b8100e",
+    "color_top_bar_text": "#ffffff",
+    "color_header_bg_home": "rgba(0,0,0,0)",
+    "color_header_text_home": "#ffffff",
+    "color_header_bg": "rgba(0,0,0,0)",
+    "color_header_text": "#000000",
+    "color_header_bg_scroll": "#ffffff",
+    "color_header_text_scroll": "#000000",
+    "color_dropdown_bg": "#ffffff",
+    "color_dropdown_text": "#000000",
+    "drawer_bg_color": "#ffffff",
+    "drawer_text_color": "#000000",
+    "header_icon_color_home": "#e75c39",
+    "header_bg_color_home": "#ffffff",
+    "header_icon_color": "#000000",
+    "header_bg_color": "#ffffff",
+    "header_icon_color_scroll": "#222222",
+    "header_bg_color_scroll": "#ffffff",
+    "color_badge_bg": "#e32c2b",
+    "color_footer_text": "#000000",
+    "color_footer_bg": "#ffffff",
+    "color_bottom_bar_bg": "#fafafa",
+    "header_font_picker": "crimson_text_n4",
+    "base_font_size": 12,
+    "heading_letter_spacing": 0,
+    "general_font_picker": "source_sans_pro_n4",
+    "body_font_size": 14,
+    "body_letter_spacing": 0,
+    "transition_grid_items": true,
+    "transition_product_features": true,
+    "transition_images_fade": true,
+    "transition_collections_list": true,
+    "show_search": true,
+    "search_suggested_collection": "",
+    "search_suggested_page_1": "",
+    "search_suggested_page_2": "",
+    "search_suggested_blog": "",
+    "search_suggested_collection_heading": "",
+    "search_suggested_pages_heading": "",
+    "search_suggested_blog_heading": "",
+    "search_suggested_text_color": "#ffffff",
+    "search_suggested_overlay_color": "#333333",
+    "search_suggested_overlay_opacity": 0,
+    "image_aspect_ratio": 1,
+    "image_size": "cover",
+    "product_title_position": "center",
+    "show_quick_view": true,
+    "show_quick_view_description": true,
+    "price_hover": true,
+    "show_quantity": true,
+    "show_review_stars": true,
+    "hover_image": true,
+    "enable_payment_button": true,
+    "color_swatches": true,
+    "color_swatches_style": "circle",
+    "product_badge_style": "rectangle",
+    "products_rows": 4,
+    "products_columns": 4,
+    "products_columns_mobile": "1",
+    "enable_video_looping": false,
+    "dots_style": "hidden",
+    "cart_icon": "cart",
+    "enable_ajax_cart": true,
+    "enable_cart_order_notes": false,
+    "show_continue_shopping": true,
+    "tax_text": "Excluding taxes and shipping",
+    "show_breadcrumbs": true,
+    "show_reviews": true,
+    "enable_yotpo": false,
+    "yotpo_ID": "",
+    "favicon": "shopify://shop_images/favicon_1.png",
+    "social_share_image": "shopify://shop_images/p6HAElJA.png",
+    "twitter_url": "",
+    "facebook_url": "http://facebook.com/estellboutique",
+    "pinterest_url": "",
+    "instagram_url": "http://instagram.com/estellboutique",
+    "tumblr_url": "",
+    "youtube_url": "",
+    "rss_url": "",
+    "share_on_twitter": true,
+    "share_on_facebook": true,
+    "share_on_pinterest": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "show_custom_cursor": false,
+    "custom_cursor_image": "",
+    "color_primary_new": "#2b558d",
+    "color_secondary_new": "#000000",
+    "color_overlay_bg": "#000000",
+    "promo_url": "",
+    "promo_banner_style": "primary",
+    "logo_enabled": true,
+    "promo_url_enabled": false,
+    "browse_by_tag_enabled": true,
+    "collection_collectionGrid_columns": "3",
+    "nav_bg_color": "#f4f4f4",
+    "nav_text_color": "#222222",
+    "twitter_via": "",
+    "color_seconsdary_new": "#2e3234",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_other": "shopify://shop_images/p6HAElJA.png",
+          "logo_max_width": 100,
+          "show_site_name": false,
+          "menu_list": "new-main-navigation",
+          "links_position": "links_center",
+          "logo_position": "logo_left",
+          "meganav_image": "shopify://shop_images/9779-30Blackwhite.jpg",
+          "meganav_image_heading": "",
+          "meganav_image_link": "",
+          "show_announcement": true,
+          "show_announcement_on_mobile": true,
+          "text": "<p><strong>FREE SHIPPING ON ALL ORDERS OVER $100.00</strong></p>",
+          "link": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "custom_css": [
+          "@media (max-width: 767px) {.collectionGrid {margin-top: 0 !important; }}"
+        ],
+        "settings": {
+          "show_title": true,
+          "show_sort_filter": false,
+          "filter_mode": "group",
+          "position_filters": "top",
+          "show_banner": true,
+          "banner_height": "small",
+          "banner_subheading": "",
+          "banner_text_position": "bottom-left",
+          "heading_size": "normal",
+          "text_size": "normal",
+          "banner_color_text": "#ffffff",
+          "banner_color_overlay": "#333333",
+          "banner_overlay_opacity": 25,
+          "featured": "none",
+          "featured_heading": "Use this image showcase promotional content.",
+          "featured_text": "<p>Elaborate on it with rich text</p>",
+          "featured_button_text": "Learn More",
+          "featured_button_link": "",
+          "featured_button_style": "primary",
+          "featured_color_text": "#ffffff",
+          "featured_color_overlay": "#333333",
+          "featured_overlay_opacity": 0
+        }
+      },
+      "1498737500673": {
+        "type": "slideshow",
+        "blocks": {
+          "49592f14-f42e-445b-baf2-3fe0fbcde794": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Estell-WebBanners-Spring25-BlueJacket.jpg",
+              "image_mobile": "shopify://shop_images/Estell-WebBanners-Spring25-BlueJacket.jpg",
+              "image_position": "center-center",
+              "alignment": "center",
+              "content_width": "full-width",
+              "color_style": "white",
+              "subheading": "",
+              "title": "",
+              "text": "",
+              "cta": "Shop Now",
+              "link": "shopify://collections/womens-dresses",
+              "cta_primary_btn_style": "primary",
+              "cta_2": "",
+              "link_2": "",
+              "cta_secondary_btn_style": "secondary",
+              "heading_size": "large",
+              "text_size": "normal",
+              "overlay_color": "#333333",
+              "overlay_opacity": 0
+            }
+          },
+          "3f5021fd-b3dd-430b-9369-3a4a74d990a3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Estell-WebBanners-Spring25-GreenDress.jpg",
+              "image_mobile": "shopify://shop_images/Estell-WebBanners-Spring25-GreenDress.jpg",
+              "image_position": "center-center",
+              "alignment": "center",
+              "content_width": "full-width",
+              "color_style": "white",
+              "subheading": "",
+              "title": "",
+              "text": "",
+              "cta": "Shop Now",
+              "link": "shopify://collections/all",
+              "cta_primary_btn_style": "primary",
+              "cta_2": "",
+              "link_2": "",
+              "cta_secondary_btn_style": "secondary",
+              "heading_size": "large",
+              "text_size": "normal",
+              "overlay_color": "#333333",
+              "overlay_opacity": 0
+            }
+          }
+        },
+        "block_order": [
+          "49592f14-f42e-445b-baf2-3fe0fbcde794",
+          "3f5021fd-b3dd-430b-9369-3a4a74d990a3"
+        ],
+        "settings": {
+          "showNavArrows": true,
+          "show_arrow_down": true,
+          "autoplay": true,
+          "duration": 4,
+          "transition": "fade",
+          "dots_position": "center",
+          "slide_height": "five-fifty-height-hero",
+          "button_size": "normal"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_layout": "slideshow",
+          "image_gallery": "lightbox",
+          "image_size": "large",
+          "add_cart_position": "top",
+          "show_vendor": true,
+          "show_quantity": true,
+          "show_cart_bar": true,
+          "enable_payment_button": true,
+          "show_newsletter": true,
+          "text_newsletter": "<p>Notify me when this product is available:</p>",
+          "enable_tabs_h6": false,
+          "page_tab_1": "",
+          "page_tab_2": "",
+          "page_tab_3": "",
+          "product_slideshow_dots": false,
+          "product_slideshow_arrows": true,
+          "enable_video_looping": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1528202808725": {
+            "type": "menu",
+            "settings": {
+              "menu": "helpful-links",
+              "title": "Helpful Links",
+              "mobile_hide_block": true
+            }
+          },
+          "1582813156290": {
+            "type": "text",
+            "settings": {
+              "title": "Information",
+              "text": "<p>Monday: 12-5<br/>Tuesday-Saturday: 11-6<br/>Sunday 12-5</p><p>908 Montana Ave Santa Monica, CA 90403<br/><strong>310-395-1506<br/><br/></strong>Monday-Sunday: 11 AM - 6 PM<strong><br/></strong>912-A Manhattan Ave, Manhattan Beach, CA 90266<strong><br/>310-985-7717</strong></p>",
+              "mobile_hide_block": false
+            }
+          },
+          "1582813160258": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "",
+              "mobile_hide_block": false
+            }
+          }
+        },
+        "block_order": [
+          "1528202808725",
+          "1582813156290",
+          "1582813160258"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "show_social_icons": true,
+          "menu": "footer",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": "enabled",
+          "popup_logo": "shopify://shop_images/logo_4f6579e7-5ee3-4436-8387-b7a0d24f6088.jpg",
+          "popup_header": "Sassy... but Classy",
+          "popup_content": "<h1><strong>GRAND<br/>OPENING</strong></h1><h5><strong>July 2025</strong></h5><p>Free Gift with Purchase in July!<strong><br/><br/></strong>912-A Manhattan Ave. <br/>Manhattan Beach, CA, 90266<br/>(310) 985-7717<br/><br/>908 Montana Ave, <br/>Santa Monica, CA, 90403<br/>(310) 395-1506</p>",
+          "text_alignment": "center",
+          "show_popup_newsletter": true,
+          "popup_delay": 1,
+          "popup_reappear_time": "7",
+          "popup_image": "shopify://shop_images/Untitled-1_3.jpg",
+          "popup_heading_font_size_desktop": 20,
+          "popup_heading_font_size_mobile": 18
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "color": "#222",
+          "background": "#ffffff",
+          "title": "Newsletter",
+          "content": "<p>Let's keep in touch</p>"
+        }
+      },
+      "product-features": {
+        "type": "product-features",
+        "blocks": {
+          "1528250359730": {
+            "type": "text",
+            "settings": {
+              "heading": "This is a heading for a Product feature block.",
+              "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+              "image": "",
+              "image_link": "",
+              "button_text": "",
+              "button_link": "",
+              "button_style": "primary"
+            }
+          },
+          "1528250384489": {
+            "type": "text",
+            "settings": {
+              "heading": "This is a heading for a Product feature block.",
+              "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+              "image": "",
+              "image_link": "",
+              "button_text": "",
+              "button_link": "",
+              "button_style": "primary"
+            }
+          }
+        },
+        "block_order": [
+          "1528250359730",
+          "1528250384489"
+        ],
+        "settings": {
+          "blocks_alignment": "center",
+          "heading_font_size": 28,
+          "text_font_size": 14
+        }
+      },
+      "rich-text": {
+        "type": "rich-text",
+        "settings": {
+          "layout": "split",
+          "heading_align": "left",
+          "heading_font_size": 28,
+          "text_font_size": 16,
+          "subheading": "Humble Beginnings",
+          "title": "",
+          "content": "",
+          "accent_line": "none",
+          "accent_line_color": "#333333",
+          "cta": "",
+          "link": "",
+          "button_style": "primary",
+          "button_position": "right"
+        }
+      },
+      "icons-row": {
+        "type": "icons-row",
+        "blocks": {
+          "1528250366509": {
+            "type": "text",
+            "settings": {
+              "icon_name": "shop",
+              "icon_image": "",
+              "title": "Feature",
+              "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+            }
+          },
+          "1528250367690": {
+            "type": "text",
+            "settings": {
+              "icon_name": "sync",
+              "icon_image": "",
+              "title": "Feature",
+              "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+            }
+          },
+          "1528250369041": {
+            "type": "text",
+            "settings": {
+              "icon_name": "target",
+              "icon_image": "",
+              "title": "Feature",
+              "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+            }
+          }
+        },
+        "block_order": [
+          "1528250366509",
+          "1528250367690",
+          "1528250369041"
+        ],
+        "settings": {
+          "color_icons_bg": "#fafafa",
+          "color_icons_text": "#333333"
+        }
+      },
+      "1532039018217": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "New Arrivals",
+          "collection1": "seasonal-new-arrivals",
+          "products_layout": "grid",
+          "pro_count": 20,
+          "show_button": true,
+          "button_style": "primary"
+        }
+      },
+      "1532039050804": {
+        "type": "testimonials",
+        "blocks": {
+          "1532039050804-1": {
+            "type": "testimonial",
+            "settings": {
+              "blockquote": "Wow! This Boutique has unique clothing from different countries, which makes them different than your ordinary clothing off the rack.  The prices vary so you can find something in your budget. The store has a European flair style to it.  The owner, Stella, is wonderfully knowledgeable about her clothing  lines and will definitely be able to put a wonderful  ensemble or wardrobe together for you. You will leave knowing that you have met a new friend and someone that will help with your future wardrobe needs.  I have been a client for over 3 years and will remain one forever....a must see stop on your Montana Ave. Walk",
+              "author": "Sylvia S."
+            }
+          },
+          "1532039050804-0": {
+            "type": "testimonial",
+            "settings": {
+              "blockquote": "I HIGHLY recommend Estell Boutique to get anything from casual outfits to dresses.  I've been coming here for years and what is so great is that the new items I purchase can be coordinated well with the items I purchased in previous seasons.  The owner, Stella, does a great job of listening to my needs and helps select things that work well for my body type.  I always get compliments because the items are unique and great colors.  I've purchased everything from clothes to accessories (camisoles, jewelry, purses, scarfs).  I just wish she sold shoes! ;-)",
+              "author": "Mary Jo O."
+            }
+          },
+          "1532039050804-2": {
+            "type": "testimonial",
+            "settings": {
+              "blockquote": "Whenever I am visiting my daughter in Santa Monica, Estell Boutique is always my first stop! Half my closet is filled with great pieces from this adorable boutique. Stella has always helped me put together an outfit for every occasion! She remembers my style and is eager to show me something that has just arrived. She is honest and sincerely wants to find something that makes me feel confident and comfortable. She has a rack outside of clothing on sale that draws you inside! I can never just walk by...everything she has is very different and easily coordinates with outfits I currently have. Prices are reasonable and her staff is very helpful! I always look forward to my next visit!",
+              "author": "Sandra P."
+            }
+          }
+        },
+        "block_order": [
+          "1532039050804-1",
+          "1532039050804-0",
+          "1532039050804-2"
+        ],
+        "settings": {
+          "title": "Hear What People are Saying",
+          "title_position": "center",
+          "blocks_text_align": "justify",
+          "hide_quotes": true,
+          "columns": 3,
+          "accent_line": "curved",
+          "accent_line_color": "#e75c39"
+        }
+      },
+      "list-collections-page-template": {
+        "type": "list-collections-page-template",
+        "settings": {
+          "show_description": true,
+          "collections_columns": 2,
+          "coll_text_position": "center",
+          "button_text": "Shop Now",
+          "button_style": "primary",
+          "text_color": "#ffffff",
+          "overlay_color": "#333333",
+          "overlay_opacity": 0
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_blog_name": true,
+          "show_rss": false,
+          "show_featured_post": true,
+          "tags": true,
+          "author": true,
+          "show_comments": true,
+          "layout": "wrapped",
+          "image_size": "large",
+          "article_rows": 4,
+          "article_columns": 4,
+          "accent_line": "straight",
+          "accent_line_color": "#333333"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "1532039480983": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_mobile": "",
+              "image_position": "center-center",
+              "alignment": "center",
+              "content_width": "full-width",
+              "color_style": "white",
+              "subheading": "",
+              "title": "Welcome to Modular",
+              "text": "<p>A unique layout with a striking design</p>",
+              "cta": "Shop Now",
+              "link": "shopify://collections/all",
+              "cta_primary_btn_style": "primary",
+              "cta_2": "",
+              "link_2": "",
+              "cta_secondary_btn_style": "secondary",
+              "heading_size": "normal",
+              "text_size": "normal",
+              "overlay_color": "#333333",
+              "overlay_opacity": 0
+            }
+          },
+          "1532039484050": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_mobile": "",
+              "image_position": "center-center",
+              "alignment": "center",
+              "content_width": "full-width",
+              "color_style": "white",
+              "subheading": "",
+              "title": "Welcome to Modular",
+              "text": "<p>A unique layout with a striking design</p>",
+              "cta": "Shop Now",
+              "link": "shopify://collections/all",
+              "cta_primary_btn_style": "primary",
+              "cta_2": "",
+              "link_2": "",
+              "cta_secondary_btn_style": "secondary",
+              "heading_size": "normal",
+              "text_size": "normal",
+              "overlay_color": "#333333",
+              "overlay_opacity": 0
+            }
+          }
+        },
+        "block_order": [
+          "1532039480983",
+          "1532039484050"
+        ],
+        "settings": {
+          "showNavArrows": true,
+          "show_arrow_down": false,
+          "autoplay": true,
+          "duration": 4,
+          "transition": "slide",
+          "dots_position": "center",
+          "slide_height": "five-fifty-height-hero",
+          "button_size": "normal"
+        }
+      },
+      "1532039811262": {
+        "type": "mosaic",
+        "blocks": {
+          "1532039811262-0": {
+            "type": "text",
+            "settings": {
+              "title": "Trending Now",
+              "subheading": "",
+              "text": "",
+              "button_label": "Shop the Collection",
+              "button_link": "shopify://collections/womens-casual-clothing-sidewalk-sale",
+              "button_style": "primary"
+            }
+          },
+          "1532039811262-1": {
+            "type": "product",
+            "settings": {
+              "product": "asymmetrical-hemline-maxi-dress-green",
+              "overlay_color": "#333333",
+              "overlay_opacity": 30
+            }
+          },
+          "1532039811262-2": {
+            "type": "product",
+            "settings": {
+              "product": "asymmetrical-hemline-maxi-dress-vine",
+              "overlay_color": "#333333",
+              "overlay_opacity": 10
+            }
+          }
+        },
+        "block_order": [
+          "1532039811262-0",
+          "1532039811262-1",
+          "1532039811262-2"
+        ],
+        "settings": {
+          "image": "shopify://shop_images/unnamed_3.jpg",
+          "overlay_color": "#ff9191",
+          "overlay_opacity": 0,
+          "image_text": "",
+          "image_link": "",
+          "hide_image_mobile": false,
+          "blocks_height": "full-height",
+          "blocks_layout": "offset",
+          "text_color": "white"
+        }
+      },
+      "faq-section__product": {
+        "type": "faq-section__product",
+        "settings": {
+          "subheading": "",
+          "title": ""
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "related_products_enable": true,
+          "limit": 4,
+          "product_recommendations_heading": "Related products"
+        }
+      },
+      "1589483078458": {
+        "type": "collection-list",
+        "blocks": {
+          "1589483078458-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "accessories"
+            }
+          },
+          "1589483078458-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "best-sellers-womens-boutique-shopping",
+              "image": "shopify://shop_images/3O8A5538.jpg"
+            }
+          },
+          "1589483078458-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "cardigans-dusters"
+            }
+          }
+        },
+        "block_order": [
+          "1589483078458-2",
+          "1589483078458-3",
+          "1589483078458-4"
+        ],
+        "settings": {
+          "title": "",
+          "subtitle": "",
+          "blocks_height": "default-height",
+          "coll_text_position": "center",
+          "show_description": true,
+          "button_text": "Shop Now",
+          "button_style": "primary",
+          "text_color": "#ffffff",
+          "overlay_color": "#333333",
+          "overlay_opacity": 37
+        }
+      },
+      "1589483291884": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Best Sellers",
+          "collection1": "best-sellers-womens-boutique-shopping",
+          "products_layout": "grid",
+          "pro_count": 20,
+          "show_button": false,
+          "button_style": "primary"
+        }
+      },
+      "1589485376383": {
+        "type": "newsletter",
+        "settings": {
+          "color": "#222222",
+          "background": "#ffffff",
+          "title": "Newsletter",
+          "content": "<p>Let&#x27;s keep in touch</p>"
+        }
+      },
+      "1589577248928": {
+        "type": "rich-text",
+        "settings": {
+          "layout": "split",
+          "heading_align": "left",
+          "heading_font_size": 28,
+          "text_font_size": 16,
+          "subheading": "NOT SURE WHAT TO GET?",
+          "title": "Grab a Gift Card!",
+          "content": "<p>Click the button below to grab a gift card for someone special in your life</p>",
+          "accent_line": "curved",
+          "accent_line_color": "#b8100e",
+          "cta": "Buy A Gift Card",
+          "link": "https://estells-boutique.myshopify.com/products/gift-card",
+          "button_style": "primary",
+          "button_position": "right"
+        }
+      },
+      "page-template": {
+        "type": "page-template",
+        "settings": {
+          "show_page_title": true
+        }
+      },
+      "icon_with_text_t9WLpi": {
+        "type": "icon-with-text",
+        "settings": {}
+      },
+      "contact-template": {
+        "type": "contact-template",
+        "blocks": {
+          "text_pyyjeU": {
+            "type": "text",
+            "settings": {
+              "title": "Name"
+            }
+          },
+          "email_JXPemN": {
+            "type": "email",
+            "settings": {
+              "title": "Email"
+            }
+          },
+          "body_w7pXcT": {
+            "type": "body",
+            "settings": {
+              "title": "Message"
+            }
+          }
+        },
+        "block_order": [
+          "text_pyyjeU",
+          "email_JXPemN",
+          "body_w7pXcT"
+        ],
+        "settings": {
+          "show_page_title": true
+        }
+      },
+      "custom_html_xpfH7g": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "@Estellboutique",
+          "html": "<div class=\"tagembed-container\" style=\"width:100%;height:100%;overflow: auto;\"><div class=\"tagembed-socialwall\" data-wall-id=\"2138042\"></div></div>"
+        }
+      }
+    },
+    "content_for_index": [
+      "1498737500673",
+      "1532039018217",
+      "1532039811262",
+      "1589483291884",
+      "1532039050804",
+      "1589577248928",
+      "1589485376383",
+      "1589483078458",
+      "custom_html_xpfH7g",
+      "icon_with_text_t9WLpi"
+    ],
+    "blocks": {
+      "5059203847231188605": {
+        "type": "shopify://apps/smart-product-filter-search/blocks/app-embed/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
+        "disabled": false,
+        "settings": {
+          "productGridSelector": "",
+          "useCustomQuickviewTemplate": false,
+          "customJs": "",
+          "customCss": "#gf-tree .noUi-marker-horizontal.noUi-marker {\n  display: none !important;\n}\n\n.gf-range-inputs input[type=text] {\n  padding: 10px !important;\n  border-color: rgba(56, 56, 56, .3) !important;\n  font-size: 14px !important;\n  height: 30px !important;\n}\n\n#gf-tree .noUi-handle {\n  border: 5px solid #383838 !important;\n  display: block !important;\n  outline: none !important;\n  position: absolute !important;\n  top: -7px !important;\n  right: -10px !important;\n  width: 20px !important;\n  height: 20px !important;\n  border-radius: 3px !important;\n  border: 1px solid #000 !important;\n  background: #fff url(\"data:image/svg+xml,%3Csvg width='5' height='6' viewBox='0 0 5 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1V6H0V0Z' fill='%23103A3A'/%3E%3Cpath d='M2 0H3V6H2V0Z' fill='%23103A3A'/%3E%3Cpath d='M4 0H5V6H4V0Z' fill='%23103A3A'/%3E%3C/svg%3E%0A\") center center no-repeat !important; !important;\n  backface-visibility: hidden !important;\n}\n\n#gf-tree .noUi-connects {\n  background: #d8d8d8 !important;\n}\n\n#gf-tree .noUi-connect {\n  background: #383838 !important;\n}\n\n#gf-tree .noUi-base,\n#gf-tree .noUi-connects {\n  height: 4px !important;\n}\n\n.gf-range-inputs {\n  margin-bottom: 30px !important;\n}\n\n#gf-tree .noUi-value-large {\n  font-size: 14px !important;\n}\n\n.spf-has-filter.spf-layout-theme .checked .gf-Checkbox {\n  background: transparent;\n}\n\n.spf-has-filter.spf-layout-theme .checked .gf-Checkbox:after {\n  content: '';\n  width: 10px;\n  height: 10px;\n  background-color: #B72124;\n  position: absolute;\n  top: 2px;\n  left: 2px;\n}\n\n.spf-has-filter.spf-layout-theme .checked .gf-RadioButton:before {\n  background: #000;\n}",
+          "customProductTemplateLoader": "{%- capture productTemplate -%}{% render 'globo.filter.product', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id=\"gspfProduct\" type=\"template/html\">{{- productTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customTreeTemplateLoader": "{%- capture treeTemplate -%}{% render 'globo.filter.tree' %}{%- endcapture -%}{%- unless treeTemplate contains 'Liquid error' -%}<script id=\"gspfFilterTree\" type=\"template/html\">{{- treeTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customSortTemplateLoader": "{%- capture sortTemplate -%}{% render 'globo.filter.sort' %}{%- endcapture -%}{%- unless sortTemplate contains 'Liquid error' -%}<script id=\"gspfFilterSort\" type=\"template/html\">{{- sortTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customSearchTemplateLoader": "{%- capture searchTemplate -%}{% render 'globo.filter.search' %}{%- endcapture -%}{%- unless searchTemplate contains 'Liquid error' -%}<script id=\"gspfSearchResult\" type=\"template/html\">{{- searchTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customPaginationTemplateLoader": "{%- capture paginationTemplate -%}{% render 'globo.filter.pagination' %}{%- endcapture -%}{%- unless paginationTemplate contains 'Liquid error' -%}<script id=\"gspfPagination\" type=\"template/html\">{{- paginationTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customYMMTemplateLoader": "{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}"
+        }
+      },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Chelsea": {
+      "color_heading_new": "#000000",
+      "color_text_new": "#000000",
+      "color_error_new": "#d02e2e",
+      "color_border_new": "#000000",
+      "color_background_new": "#ffffff",
+      "color_button_primary_bg": "#8dcbe9",
+      "color_button_secondary_bg": "#ffffff",
+      "color_top_bar": "#8dcbe9",
+      "color_top_bar_text": "#000000",
+      "color_header_bg_home": "rgba(0,0,0,0)",
+      "color_header_text_home": "#ffffff",
+      "color_header_bg": "rgba(0,0,0,0)",
+      "color_header_text": "#000000",
+      "color_header_bg_scroll": "#ffffff",
+      "color_header_text_scroll": "#000000",
+      "color_dropdown_bg": "#ffffff",
+      "color_dropdown_text": "#000000",
+      "drawer_bg_color": "#ffffff",
+      "drawer_text_color": "#000000",
+      "header_icon_color_home": "#000000",
+      "header_bg_color_home": "#ffffff",
+      "header_icon_color": "#000000",
+      "header_bg_color": "#ffffff",
+      "header_icon_color_scroll": "#222222",
+      "header_bg_color_scroll": "#ffffff",
+      "color_badge_bg": "#8dcbe9",
+      "color_footer_text": "#000000",
+      "color_footer_bg": "#ffffff",
+      "color_bottom_bar_bg": "#fafafa",
+      "header_font_picker": "nunito_n4",
+      "base_font_size": 12,
+      "heading_letter_spacing": 0,
+      "general_font_picker": "nunito_sans_n4",
+      "body_font_size": 14,
+      "body_letter_spacing": 0,
+      "transition_grid_items": true,
+      "transition_product_features": true,
+      "transition_images_fade": true,
+      "transition_collections_list": true,
+      "show_search": true,
+      "search_suggested_collection": "",
+      "search_suggested_page_1": "",
+      "search_suggested_page_2": "",
+      "search_suggested_blog": "",
+      "search_suggested_collection_heading": "",
+      "search_suggested_pages_heading": "",
+      "search_suggested_blog_heading": "",
+      "search_suggested_text_color": "#ffffff",
+      "search_suggested_overlay_color": "#333333",
+      "search_suggested_overlay_opacity": 0,
+      "image_aspect_ratio": 1,
+      "image_size": "cover",
+      "show_quick_view": true,
+      "show_quick_view_description": true,
+      "show_quantity": true,
+      "hover_image": false,
+      "enable_payment_button": true,
+      "color_swatches": true,
+      "color_swatches_style": "circle",
+      "products_rows": 4,
+      "products_columns": 4,
+      "enable_video_looping": false,
+      "enable_ajax_cart": true,
+      "enable_cart_order_notes": false,
+      "show_continue_shopping": true,
+      "tax_text": "Excluding taxes and shipping",
+      "show_custom_cursor": false,
+      "custom_cursor_image": "",
+      "show_breadcrumbs": true,
+      "show_reviews": true,
+      "enable_yotpo": false,
+      "yotpo_ID": "",
+      "favicon": "",
+      "social_share_image": "",
+      "twitter_url": "",
+      "facebook_url": "",
+      "pinterest_url": "",
+      "instagram_url": "",
+      "tumblr_url": "",
+      "youtube_url": "",
+      "rss_url": "",
+      "share_on_twitter": true,
+      "share_on_facebook": true,
+      "share_on_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "color_primary_new": "#8DCBE9",
+      "color_secondary_new": "#000000",
+      "color_overlay_bg": "#000000",
+      "promo_url": "",
+      "promo_banner_style": "primary",
+      "logo_enabled": true,
+      "promo_url_enabled": false,
+      "browse_by_tag_enabled": false,
+      "collection_collectionGrid_columns": "3",
+      "nav_bg_color": "#f4f4f4",
+      "nav_text_color": "#222222",
+      "twitter_via": "",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_other": "",
+            "logo_max_width": 100,
+            "show_site_name": true,
+            "menu_list": "main-menu",
+            "links_position": "links_center",
+            "logo_position": "logo_left",
+            "meganav_image": "",
+            "meganav_image_heading": "",
+            "meganav_image_link": "",
+            "show_announcement": true,
+            "show_announcement_on_mobile": true,
+            "text": "<p>Broadcast sales, promos, or other offerings here</p>",
+            "link": ""
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_title": true,
+            "show_sort_filter": true,
+            "show_banner": true,
+            "banner_height": "normal",
+            "banner_subheading": "",
+            "banner_text_position": "center",
+            "heading_size": "normal",
+            "text_size": "normal",
+            "banner_color_text": "#ffffff",
+            "banner_color_overlay": "#333333",
+            "banner_overlay_opacity": 0,
+            "featured": "none",
+            "featured_image": "",
+            "featured_heading": "Use this image showcase promotional content.",
+            "featured_text": "<p>Elaborate on it with rich text</p>",
+            "featured_button_text": "Learn More",
+            "featured_button_link": "",
+            "featured_button_style": "primary",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#333333",
+            "featured_overlay_opacity": 0
+          }
+        },
+        "1498737500673": {
+          "type": "slideshow",
+          "blocks": {
+            "1498737500673-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Learn More",
+                "link": "",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            },
+            "1498737500673-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Learn More",
+                "link": "",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1498737500673-0",
+            "1498737500673-1"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "zoom-out",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero",
+            "button_size": "normal"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_layout": "slideshow",
+            "image_gallery": "lightbox",
+            "image_size": "large",
+            "add_cart_position": "top",
+            "show_vendor": true,
+            "show_quantity": false,
+            "show_cart_bar": true,
+            "enable_payment_button": true,
+            "show_newsletter": true,
+            "text_newsletter": "<p>Notify me when this product is available:</p>",
+            "page_tab_1": "",
+            "page_tab_2": "",
+            "page_tab_3": "",
+            "product_slideshow_dots": false,
+            "product_slideshow_arrows": false,
+            "enable_video_looping": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1528202808725": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "title": "Helpful Links",
+                "mobile_hide_block": true
+              }
+            },
+            "1582813156290": {
+              "type": "text",
+              "settings": {
+                "title": "Information",
+                "text": "<p>This text block is a great place to discuss shipping policies, or terms and conditions info.</p>",
+                "mobile_hide_block": false
+              }
+            },
+            "1582813160258": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "",
+                "mobile_hide_block": false
+              }
+            }
+          },
+          "block_order": [
+            "1528202808725",
+            "1582813156290",
+            "1582813160258"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "show_social_icons": true,
+            "menu": ""
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "show_popup": "disabled",
+            "popup_header": "Use the popup to catch emails and showcase promotions",
+            "popup_content": "<p>Popups can detract from a user's experience, so try to limit how often they appear.</p>",
+            "text_alignment": "center",
+            "show_popup_newsletter": true,
+            "popup_delay": 5,
+            "popup_reappear_time": "7",
+            "popup_image": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "color": "#222",
+            "background": "#ffffff",
+            "title": "Newsletter",
+            "content": "<p>Let's keep in touch</p>"
+          }
+        },
+        "product-features": {
+          "type": "product-features",
+          "blocks": {
+            "1528250359730": {
+              "type": "text",
+              "settings": {
+                "heading": "This is a heading for a Product feature block.",
+                "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+                "image": "",
+                "image_link": "",
+                "button_text": "",
+                "button_link": "",
+                "button_style": "primary"
+              }
+            },
+            "1528250384489": {
+              "type": "text",
+              "settings": {
+                "heading": "This is a heading for a Product feature block.",
+                "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+                "image": "",
+                "image_link": "",
+                "button_text": "",
+                "button_link": "",
+                "button_style": "primary"
+              }
+            }
+          },
+          "block_order": [
+            "1528250359730",
+            "1528250384489"
+          ],
+          "settings": {
+            "blocks_alignment": "center",
+            "heading_font_size": 28,
+            "text_font_size": 14
+          }
+        },
+        "rich-text": {
+          "type": "rich-text",
+          "settings": {
+            "layout": "split",
+            "heading_align": "left",
+            "heading_font_size": 28,
+            "text_font_size": 16,
+            "subheading": "Humble Beginnings",
+            "title": "",
+            "content": "",
+            "accent_line": "none",
+            "accent_line_color": "#333333",
+            "cta": "",
+            "link": "",
+            "button_style": "primary",
+            "button_position": "left"
+          }
+        },
+        "icons-row": {
+          "type": "icons-row",
+          "blocks": {
+            "1528250366509": {
+              "type": "text",
+              "settings": {
+                "icon_name": "shop",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1528250367690": {
+              "type": "text",
+              "settings": {
+                "icon_name": "sync",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1528250369041": {
+              "type": "text",
+              "settings": {
+                "icon_name": "target",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            }
+          },
+          "block_order": [
+            "1528250366509",
+            "1528250367690",
+            "1528250369041"
+          ],
+          "settings": {
+            "color_icons_bg": "#fafafa",
+            "color_icons_text": "#333333"
+          }
+        },
+        "1532039018217": {
+          "type": "featured-collection",
+          "settings": {
+            "title": "",
+            "collection1": "frontpage",
+            "products_layout": "grid",
+            "show_button": true,
+            "button_style": "primary"
+          }
+        },
+        "1532039050804": {
+          "type": "testimonials",
+          "blocks": {
+            "1532039050804-0": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            },
+            "1532039050804-1": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            },
+            "1532039050804-2": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            }
+          },
+          "block_order": [
+            "1532039050804-0",
+            "1532039050804-1",
+            "1532039050804-2"
+          ],
+          "settings": {
+            "title": "",
+            "title_position": "center",
+            "blocks_text_align": "justify",
+            "hide_quotes": false,
+            "columns": 3,
+            "accent_line": "straight",
+            "accent_line_color": "#8dcbe9"
+          }
+        },
+        "1532039073433": {
+          "type": "image-with-text",
+          "blocks": {
+            "1532039073433-0": {
+              "type": "gallery_image",
+              "settings": {
+                "slide": ""
+              }
+            },
+            "1532039073433-1": {
+              "type": "gallery_image",
+              "settings": {
+                "slide": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532039073433-0",
+            "1532039073433-1"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "color_style": "white",
+            "transition": "fade",
+            "autoplay": true,
+            "duration": 4,
+            "show_margins": false,
+            "slide_height": "five-fifty-height-hero",
+            "slide_image_position": "left",
+            "slide_image_width": "med_s12|med_s12",
+            "subheading": "Humble Beginnings",
+            "title": "Tell a Story",
+            "content": "<p>By showcasing a product, collection, or your brand.</p>",
+            "cta": "Shop Now",
+            "link": "",
+            "button_style": "primary"
+          }
+        },
+        "list-collections-page-template": {
+          "type": "list-collections-page-template",
+          "settings": {
+            "show_description": true,
+            "collections_columns": 2,
+            "coll_text_position": "center",
+            "button_text": "Shop Now",
+            "text_color": "#ffffff",
+            "overlay_color": "#333333",
+            "overlay_opacity": 0
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "show_blog_name": false,
+            "show_rss": false,
+            "show_featured_post": true,
+            "tags": true,
+            "author": true,
+            "show_comments": true,
+            "layout": "wrapped",
+            "image_size": "large",
+            "article_rows": 4,
+            "article_columns": 4,
+            "accent_line": "straight",
+            "accent_line_color": "#333333"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1532039480983": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            },
+            "1532039484050": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1532039480983",
+            "1532039484050"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "fade",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero",
+            "button_size": "normal"
+          }
+        },
+        "1532041611167": {
+          "type": "collection-list",
+          "blocks": {
+            "1532041611167-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532041611167-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532041611167-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532041611167-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532041611167-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532041611167-0",
+            "1532041611167-1",
+            "1532041611167-2",
+            "1532041611167-3",
+            "1532041611167-4"
+          ],
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "blocks_height": "default-height",
+            "coll_text_position": "bottom_left",
+            "show_description": true,
+            "text_color": "#ffffff",
+            "overlay_color": "#333333",
+            "overlay_opacity": 0
+          }
+        },
+        "1532041725090": {
+          "type": "slideshow",
+          "blocks": {
+            "1532041725090-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "Humble Beginnings",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1532041725090-0"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "fade",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero",
+            "button_size": "normal"
+          }
+        },
+        "1583105953406": {
+          "type": "rich-text",
+          "settings": {
+            "layout": "split",
+            "heading_align": "left",
+            "heading_font_size": 28,
+            "text_font_size": 16,
+            "subheading": "Humble Beginnings",
+            "title": "Modular is a powerful Shopify theme that will set you apart from the rest.",
+            "content": "<p>It features ample space to showcase your imagery with Mosaic, Image with text, and Slideshow sections ... and even this Rich Text section itself.</p>",
+            "accent_line": "none",
+            "accent_line_color": "#333333",
+            "cta": "Learn More",
+            "link": "",
+            "button_style": "primary",
+            "button_position": "right"
+          }
+        },
+        "faq-section__product": {
+          "type": "faq-section__product",
+          "settings": {
+            "subheading": "",
+            "title": ""
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "related_products_enable": true,
+            "limit": 4,
+            "product_recommendations_heading": "Related products"
+          }
+        }
+      },
+      "content_for_index": [
+        "1498737500673",
+        "1583105953406",
+        "1532039073433",
+        "1532039018217",
+        "1532041611167",
+        "1532039050804",
+        "1532041725090"
+      ]
+    },
+    "Mayfair": {
+      "color_heading_new": "#000000",
+      "color_text_new": "#000000",
+      "color_primary_new": "#000000",
+      "color_secondary_new": "#000000",
+      "color_border_new": "#000000",
+      "color_background_new": "#ffffff",
+      "color_button_primary_bg": "#333333",
+      "color_top_bar": "#ffffff",
+      "color_top_bar_text": "#000000",
+      "color_header_bg_home": "rgba(0,0,0,0)",
+      "color_header_text_home": "#ffffff",
+      "color_header_bg": "rgba(0,0,0,0)",
+      "color_header_text": "#000000",
+      "color_header_bg_scroll": "#ffffff",
+      "color_header_text_scroll": "#000000",
+      "color_dropdown_bg": "#ffffff",
+      "color_dropdown_text": "#000000",
+      "drawer_bg_color": "#ffffff",
+      "drawer_text_color": "#000000",
+      "header_icon_color_home": "#000000",
+      "header_bg_color_home": "#ffffff",
+      "header_icon_color": "#000000",
+      "header_bg_color": "#ffffff",
+      "color_badge_bg": "#2e3234",
+      "color_footer_text": "#000000",
+      "color_footer_bg": "#ffffff",
+      "color_bottom_bar_bg": "#fafafa",
+      "header_font_picker": "playfair_display_n9",
+      "base_font_size": 12,
+      "heading_letter_spacing": 0,
+      "general_font_picker": "work_sans_n4",
+      "body_font_size": 14,
+      "body_letter_spacing": 0,
+      "enable_cart_order_notes": false,
+      "show_custom_cursor": false,
+      "enable_payment_button": true,
+      "custom_cursor_image": "",
+      "show_breadcrumbs": true,
+      "favicon": "",
+      "twitter_url": "",
+      "facebook_url": "",
+      "pinterest_url": "",
+      "instagram_url": "",
+      "tumblr_url": "",
+      "youtube_url": "",
+      "rss_url": "",
+      "share_on_twitter": true,
+      "share_on_facebook": true,
+      "share_on_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "color_overlay_bg": "#000000",
+      "color_seconsdary_new": "#2e3234",
+      "promo_banner_style": "primary",
+      "promo_url_enabled": false,
+      "logo_enabled": true,
+      "browse_by_tag_enabled": true,
+      "collection_collectionGrid_columns": "3",
+      "nav_bg_color": "#f4f4f4",
+      "nav_text_color": "#222222",
+      "twitter_via": "",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_other": "",
+            "logo_max_width": 100,
+            "show_site_name": true,
+            "menu_list": "main-menu",
+            "links_position": "links_center",
+            "logo_position": "logo_left",
+            "meganav_image": "",
+            "meganav_image_heading": "",
+            "meganav_image_link": "",
+            "show_announcement": true,
+            "show_announcement_on_mobile": true,
+            "text": "<p>Broadcast sales, promos, or other offerings here</p>",
+            "link": ""
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_title": true,
+            "show_sort_filter": true,
+            "show_banner": true,
+            "banner_height": "normal",
+            "banner_subheading": "",
+            "banner_text_position": "bottom-left",
+            "heading_size": "normal",
+            "text_size": "normal",
+            "banner_color_text": "#ffffff",
+            "banner_color_overlay": "#333333",
+            "banner_overlay_opacity": 0,
+            "featured": "none",
+            "featured_image": "",
+            "featured_heading": "Use this image showcase promotional content.",
+            "featured_text": "<p>Elaborate on it with rich text</p>",
+            "featured_button_text": "Learn More",
+            "featured_button_link": "",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#333333",
+            "featured_overlay_opacity": 0
+          }
+        },
+        "1498737500673": {
+          "type": "slideshow",
+          "blocks": {
+            "1498737500673-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Learn More",
+                "link": "",
+                "cta_2": "",
+                "link_2": "",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            },
+            "1498737500673-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Learn More",
+                "link": "",
+                "cta_2": "Shop Now",
+                "link_2": "",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1498737500673-0",
+            "1498737500673-1"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "zoom-out",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_layout": "slideshow",
+            "image_gallery": "zoom",
+            "image_size": "large",
+            "show_vendor": false,
+            "show_quantity": true,
+            "show_cart_bar": true,
+            "show_newsletter": true,
+            "text_newsletter": "<p>Notify me when this product is available:</p>",
+            "page_tab_1": "",
+            "page_tab_2": "",
+            "page_tab_3": "",
+            "product_slideshow_dots": false,
+            "product_slideshow_arrows": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1528202808725": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "title": "Helpful Links",
+                "mobile_hide_block": true
+              }
+            },
+            "1582813156290": {
+              "type": "text",
+              "settings": {
+                "title": "Information",
+                "text": "<p>This text block is a great place to discuss shipping policies, or terms and conditions info.</p>",
+                "mobile_hide_block": false
+              }
+            },
+            "1582813160258": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "",
+                "mobile_hide_block": false
+              }
+            }
+          },
+          "block_order": [
+            "1528202808725",
+            "1582813156290",
+            "1582813160258"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "show_social_icons": true,
+            "menu": ""
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "show_popup": "disabled",
+            "show_popup_newsletter": true,
+            "popup_delay": 5,
+            "popup_reappear_time": "7",
+            "popup_image": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "color": "#222",
+            "background": "#ffffff",
+            "title": "Newsletter",
+            "content": "<p>Let's keep in touch</p>"
+          }
+        },
+        "product-features": {
+          "type": "product-features",
+          "blocks": {
+            "1528250359730": {
+              "type": "text",
+              "settings": {
+                "heading": "This is a heading for a Product feature block.",
+                "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+                "image": "",
+                "image_link": "",
+                "button_text": "",
+                "button_link": ""
+              }
+            },
+            "1528250384489": {
+              "type": "text",
+              "settings": {
+                "heading": "This is a heading for a Product feature block.",
+                "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+                "image": "",
+                "image_link": "",
+                "button_text": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1528250359730",
+            "1528250384489"
+          ],
+          "settings": {
+            "blocks_alignment": "center"
+          }
+        },
+        "rich-text": {
+          "type": "rich-text",
+          "settings": {
+            "layout": "split",
+            "title": "",
+            "content": "",
+            "cta": "",
+            "link": ""
+          }
+        },
+        "icons-row": {
+          "type": "icons-row",
+          "blocks": {
+            "1528250366509": {
+              "type": "text",
+              "settings": {
+                "icon_name": "shop",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1528250367690": {
+              "type": "text",
+              "settings": {
+                "icon_name": "sync",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1528250369041": {
+              "type": "text",
+              "settings": {
+                "icon_name": "target",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            }
+          },
+          "block_order": [
+            "1528250366509",
+            "1528250367690",
+            "1528250369041"
+          ],
+          "settings": {
+            "color_icons_bg": "#fafafa",
+            "color_icons_text": "#333333"
+          }
+        },
+        "1532038945687": {
+          "type": "rich-text",
+          "settings": {
+            "layout": "split",
+            "title": "Describe your products or brand in detail here",
+            "content": "<p>Modular is a powerful Shopify theme that will set you apart from the rest. It features ample space to showcase your imagery with Mosaic, Image with text, and Slideshow sections.</p>",
+            "cta": "",
+            "link": ""
+          }
+        },
+        "1532038978596": {
+          "type": "collection-list",
+          "blocks": {
+            "1532038978596-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532038978596-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532038978596-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532038978596-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "1532038978596-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532038978596-0",
+            "1532038978596-1",
+            "1532038978596-2",
+            "1532038978596-3",
+            "1532038978596-4"
+          ],
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "blocks_height": "default-height",
+            "coll_text_position": "center",
+            "show_description": true,
+            "text_color": "#ffffff",
+            "overlay_color": "#333333",
+            "overlay_opacity": 0
+          }
+        },
+        "1532039018217": {
+          "type": "featured-collection",
+          "settings": {
+            "title": "",
+            "collection1": "frontpage"
+          }
+        },
+        "1532039029252": {
+          "type": "mosaic",
+          "blocks": {
+            "1532039029252-0": {
+              "type": "text",
+              "settings": {
+                "title": "Featured collection",
+                "subheading": "Best Seller",
+                "text": "Showcase a two of your best products, video, a collection, or text with the blocks in this section.",
+                "button_label": "Shop now",
+                "button_link": ""
+              }
+            },
+            "1532039029252-1": {
+              "type": "product",
+              "settings": {
+                "product": ""
+              }
+            },
+            "1532039029252-2": {
+              "type": "product",
+              "settings": {
+                "product": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532039029252-0",
+            "1532039029252-1",
+            "1532039029252-2"
+          ],
+          "settings": {
+            "image": "",
+            "image_text": "",
+            "image_link": "",
+            "hide_image_mobile": false,
+            "blocks_layout": "offset"
+          }
+        },
+        "1532039050804": {
+          "type": "testimonials",
+          "blocks": {
+            "1532039050804-0": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            },
+            "1532039050804-1": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            },
+            "1532039050804-2": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            }
+          },
+          "block_order": [
+            "1532039050804-0",
+            "1532039050804-1",
+            "1532039050804-2"
+          ],
+          "settings": {
+            "title": "",
+            "title_position": "left",
+            "blocks_text_align": "justify",
+            "hide_quotes": false,
+            "accent_line": "straight",
+            "accent_line_color": "#333333"
+          }
+        },
+        "1532039073433": {
+          "type": "image-with-text",
+          "blocks": {
+            "1532039073433-0": {
+              "type": "gallery_image",
+              "settings": {
+                "slide": ""
+              }
+            },
+            "1532039073433-1": {
+              "type": "gallery_image",
+              "settings": {
+                "slide": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532039073433-0",
+            "1532039073433-1"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "color_style": "white",
+            "autoplay": true,
+            "duration": 4,
+            "show_margins": false,
+            "slide_height": "five-fifty-height-hero",
+            "slide_image_position": "left",
+            "slide_image_width": "med_s12|med_s12",
+            "subheading": "Humble Beginnings",
+            "title": "Tell a Story",
+            "content": "<p>By showcasing a product, collection, or your brand.</p>",
+            "cta": "Shop Now",
+            "link": ""
+          }
+        },
+        "1532039110708": {
+          "type": "featured-blog",
+          "settings": {
+            "blogName": "news",
+            "heading": "",
+            "text": "",
+            "cta": "",
+            "tags": true,
+            "author": true,
+            "article_rows": 1,
+            "article_columns": 4
+          }
+        },
+        "1532039127139": {
+          "type": "map",
+          "settings": {
+            "api_key": "",
+            "map_address": "5 Rue Saint-Jacques, Paris, France 75005",
+            "map_height": "five-fifty-height-hero",
+            "location_title": "Modular",
+            "location_subheading": "Come visit our store",
+            "address": "566 Emerson Street\nPalo Alto, California",
+            "hours": "Mon - Fri, 8am - 11pm\nSaturday, 8am - 12pm\nSunday, 9am - 11pm",
+            "card_color": "#ffffff",
+            "style": "retro",
+            "zoom": 12,
+            "background_image": ""
+          }
+        },
+        "list-collections-page-template": {
+          "type": "list-collections-page-template",
+          "settings": {
+            "show_description": true,
+            "collections_columns": 2,
+            "coll_text_position": "center",
+            "button_text": "Shop Now",
+            "text_color": "#ffffff",
+            "overlay_color": "#333333",
+            "overlay_opacity": 0
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "show_blog_name": false,
+            "show_rss": false,
+            "show_featured_post": true,
+            "tags": true,
+            "author": true,
+            "show_comments": true,
+            "article_rows": 4,
+            "article_columns": 4,
+            "accent_line": "straight",
+            "accent_line_color": "#333333"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1532039480983": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_2": "",
+                "link_2": "",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            },
+            "1532039484050": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_2": "",
+                "link_2": "",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1532039480983",
+            "1532039484050"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "slide",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero"
+          }
+        }
+      },
+      "content_for_index": [
+        "1498737500673",
+        "1532038945687",
+        "1532038978596",
+        "1532039018217",
+        "1532039029252",
+        "1532039050804",
+        "1532039073433",
+        "1532039127139",
+        "1532039110708"
+      ]
+    },
+    "Hoxton": {
+      "color_heading_new": "#000000",
+      "color_text_new": "#000000",
+      "color_error_new": "#d02e2e",
+      "color_border_new": "#000000",
+      "color_background_new": "#ffffff",
+      "color_button_primary_bg": "#2b558d",
+      "color_button_secondary_bg": "#ffffff",
+      "color_top_bar": "#2b558d",
+      "color_top_bar_text": "#ffffff",
+      "color_header_bg_home": "rgba(0,0,0,0)",
+      "color_header_text_home": "#ffffff",
+      "color_header_bg": "rgba(0,0,0,0)",
+      "color_header_text": "#000000",
+      "color_header_bg_scroll": "#ffffff",
+      "color_header_text_scroll": "#000000",
+      "color_dropdown_bg": "#ffffff",
+      "color_dropdown_text": "#000000",
+      "drawer_bg_color": "#ffffff",
+      "drawer_text_color": "#000000",
+      "header_icon_color_home": "#000000",
+      "header_bg_color_home": "#ffffff",
+      "header_icon_color": "#000000",
+      "header_bg_color": "#ffffff",
+      "header_icon_color_scroll": "#222222",
+      "header_bg_color_scroll": "#ffffff",
+      "color_badge_bg": "#2e3234",
+      "color_footer_text": "#000000",
+      "color_footer_bg": "#ffffff",
+      "color_bottom_bar_bg": "#fafafa",
+      "header_font_picker": "glegoo_n4",
+      "base_font_size": 12,
+      "heading_letter_spacing": 0,
+      "general_font_picker": "work_sans_n4",
+      "body_font_size": 14,
+      "body_letter_spacing": 0,
+      "transition_grid_items": true,
+      "transition_product_features": true,
+      "transition_images_fade": true,
+      "transition_collections_list": true,
+      "show_search": true,
+      "search_suggested_collection": "",
+      "search_suggested_page_1": "",
+      "search_suggested_page_2": "",
+      "search_suggested_blog": "",
+      "search_suggested_collection_heading": "",
+      "search_suggested_pages_heading": "",
+      "search_suggested_blog_heading": "",
+      "search_suggested_text_color": "#ffffff",
+      "search_suggested_overlay_color": "#333333",
+      "search_suggested_overlay_opacity": 0,
+      "image_aspect_ratio": 1,
+      "image_size": "cover",
+      "show_quick_view": true,
+      "show_quick_view_description": true,
+      "price_hover": false,
+      "show_quantity": true,
+      "hover_image": false,
+      "enable_payment_button": true,
+      "color_swatches": true,
+      "color_swatches_style": "circle",
+      "products_rows": 4,
+      "products_columns": 4,
+      "enable_video_looping": false,
+      "enable_ajax_cart": true,
+      "enable_cart_order_notes": false,
+      "show_continue_shopping": true,
+      "tax_text": "Excluding taxes and shipping",
+      "show_custom_cursor": false,
+      "custom_cursor_image": "",
+      "show_breadcrumbs": true,
+      "show_reviews": true,
+      "enable_yotpo": false,
+      "yotpo_ID": "",
+      "favicon": "",
+      "social_share_image": "",
+      "twitter_url": "",
+      "facebook_url": "",
+      "pinterest_url": "",
+      "instagram_url": "",
+      "tumblr_url": "",
+      "youtube_url": "",
+      "rss_url": "",
+      "share_on_twitter": true,
+      "share_on_facebook": true,
+      "share_on_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "color_primary_new": "#2b558d",
+      "color_secondary_new": "#000000",
+      "color_overlay_bg": "#000000",
+      "color_seconsdary_new": "#2e3234",
+      "promo_banner_style": "primary",
+      "promo_url_enabled": false,
+      "logo_enabled": true,
+      "browse_by_tag_enabled": true,
+      "collection_collectionGrid_columns": "3",
+      "nav_bg_color": "#f4f4f4",
+      "nav_text_color": "#222222",
+      "twitter_via": "",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_other": "",
+            "logo_max_width": 100,
+            "show_site_name": true,
+            "menu_list": "main-menu",
+            "links_position": "links_center",
+            "logo_position": "logo_left",
+            "meganav_image": "",
+            "meganav_image_heading": "",
+            "meganav_image_link": "",
+            "show_announcement": true,
+            "show_announcement_on_mobile": true,
+            "text": "<p>Broadcast sales, promos, or other offerings here</p>",
+            "link": ""
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_title": true,
+            "show_sort_filter": true,
+            "show_banner": true,
+            "banner_height": "normal",
+            "banner_subheading": "",
+            "banner_text_position": "bottom-left",
+            "heading_size": "normal",
+            "text_size": "normal",
+            "banner_color_text": "#ffffff",
+            "banner_color_overlay": "#333333",
+            "banner_overlay_opacity": 0,
+            "featured": "none",
+            "featured_image": "",
+            "featured_heading": "Use this image showcase promotional content.",
+            "featured_text": "<p>Elaborate on it with rich text</p>",
+            "featured_button_text": "Learn More",
+            "featured_button_link": "",
+            "featured_button_style": "primary",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#333333",
+            "featured_overlay_opacity": 0
+          }
+        },
+        "1498737500673": {
+          "type": "slideshow",
+          "blocks": {
+            "1498737500673-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Learn More",
+                "link": "",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            },
+            "1498737500673-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Learn More",
+                "link": "",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1498737500673-0",
+            "1498737500673-1"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "fade",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero",
+            "button_size": "normal"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_layout": "scrollable",
+            "image_gallery": "lightbox",
+            "image_size": "large",
+            "add_cart_position": "top",
+            "show_vendor": true,
+            "show_quantity": false,
+            "show_cart_bar": true,
+            "enable_payment_button": true,
+            "show_newsletter": true,
+            "text_newsletter": "<p>Notify me when this product is available:</p>",
+            "page_tab_1": "",
+            "page_tab_2": "",
+            "page_tab_3": "",
+            "product_slideshow_dots": false,
+            "product_slideshow_arrows": false,
+            "enable_video_looping": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1528202808725": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "title": "Helpful Links",
+                "mobile_hide_block": true
+              }
+            },
+            "1582813156290": {
+              "type": "text",
+              "settings": {
+                "title": "Information",
+                "text": "<p>This text block is a great place to discuss shipping policies, or terms and conditions info.</p>",
+                "mobile_hide_block": false
+              }
+            },
+            "1582813160258": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "",
+                "mobile_hide_block": false
+              }
+            }
+          },
+          "block_order": [
+            "1528202808725",
+            "1582813156290",
+            "1582813160258"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "show_social_icons": true,
+            "menu": ""
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "show_popup": "disabled",
+            "popup_header": "Use the popup to catch emails and showcase promotions",
+            "popup_content": "<p>Popups can detract from a user's experience, so try to limit how often they appear.</p>",
+            "text_alignment": "center",
+            "show_popup_newsletter": true,
+            "popup_delay": 5,
+            "popup_reappear_time": "7",
+            "popup_image": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "color": "#222",
+            "background": "#ffffff",
+            "title": "Newsletter",
+            "content": "<p>Let's keep in touch</p>"
+          }
+        },
+        "product-features": {
+          "type": "product-features",
+          "blocks": {
+            "1528250359730": {
+              "type": "text",
+              "settings": {
+                "heading": "This is a heading for a Product feature block.",
+                "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+                "image": "",
+                "image_link": "",
+                "button_text": "",
+                "button_link": "",
+                "button_style": "primary"
+              }
+            },
+            "1528250384489": {
+              "type": "text",
+              "settings": {
+                "heading": "This is a heading for a Product feature block.",
+                "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.</p>",
+                "image": "",
+                "image_link": "",
+                "button_text": "",
+                "button_link": "",
+                "button_style": "primary"
+              }
+            }
+          },
+          "block_order": [
+            "1528250359730",
+            "1528250384489"
+          ],
+          "settings": {
+            "blocks_alignment": "center",
+            "heading_font_size": 28,
+            "text_font_size": 14
+          }
+        },
+        "rich-text": {
+          "type": "rich-text",
+          "settings": {
+            "layout": "split",
+            "heading_align": "left",
+            "heading_font_size": 28,
+            "text_font_size": 16,
+            "subheading": "Humble Beginnings",
+            "title": "",
+            "content": "",
+            "accent_line": "none",
+            "accent_line_color": "#333333",
+            "cta": "",
+            "link": "",
+            "button_style": "primary",
+            "button_position": "right"
+          }
+        },
+        "icons-row": {
+          "type": "icons-row",
+          "blocks": {
+            "1528250366509": {
+              "type": "text",
+              "settings": {
+                "icon_name": "shop",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1528250367690": {
+              "type": "text",
+              "settings": {
+                "icon_name": "sync",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1528250369041": {
+              "type": "text",
+              "settings": {
+                "icon_name": "target",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            }
+          },
+          "block_order": [
+            "1528250366509",
+            "1528250367690",
+            "1528250369041"
+          ],
+          "settings": {
+            "color_icons_bg": "#fafafa",
+            "color_icons_text": "#333333"
+          }
+        },
+        "1532039018217": {
+          "type": "featured-collection",
+          "settings": {
+            "title": "",
+            "collection1": "frontpage",
+            "products_layout": "grid",
+            "show_button": true,
+            "button_style": "primary"
+          }
+        },
+        "1532039050804": {
+          "type": "testimonials",
+          "blocks": {
+            "1532039050804-0": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            },
+            "1532039050804-1": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            },
+            "1532039050804-2": {
+              "type": "testimonial",
+              "settings": {
+                "blockquote": "Use this testimonial as an opportunity for your most valued customer to discuss your brand and what sets you apart from the competition. This section looks best when limited to two or three lines!",
+                "author": "John Doe"
+              }
+            }
+          },
+          "block_order": [
+            "1532039050804-0",
+            "1532039050804-1",
+            "1532039050804-2"
+          ],
+          "settings": {
+            "title": "",
+            "title_position": "center",
+            "blocks_text_align": "justify",
+            "hide_quotes": false,
+            "columns": 3,
+            "accent_line": "straight",
+            "accent_line_color": "#333333"
+          }
+        },
+        "1532039073433": {
+          "type": "image-with-text",
+          "blocks": {
+            "1532039073433-0": {
+              "type": "gallery_image",
+              "settings": {
+                "slide": ""
+              }
+            },
+            "1532039073433-1": {
+              "type": "gallery_image",
+              "settings": {
+                "slide": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532039073433-0",
+            "1532039073433-1"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "color_style": "white",
+            "transition": "fade",
+            "autoplay": true,
+            "duration": 4,
+            "show_margins": false,
+            "slide_height": "five-fifty-height-hero",
+            "slide_image_position": "left",
+            "slide_image_width": "med_s12|med_s12",
+            "subheading": "Humble Beginnings",
+            "title": "Tell a Story",
+            "content": "<p>By showcasing a product, collection, or your brand.</p>",
+            "cta": "Shop Now",
+            "link": "",
+            "button_style": "primary"
+          }
+        },
+        "1532039110708": {
+          "type": "featured-blog",
+          "settings": {
+            "layout": "wrapped",
+            "image_size": "large",
+            "blogName": "news",
+            "heading": "",
+            "text": "",
+            "cta": "",
+            "button_style": "primary",
+            "tags": true,
+            "author": true,
+            "article_rows": 1,
+            "article_columns": 4
+          }
+        },
+        "list-collections-page-template": {
+          "type": "list-collections-page-template",
+          "settings": {
+            "show_description": true,
+            "collections_columns": 2,
+            "coll_text_position": "center",
+            "button_text": "Shop Now",
+            "text_color": "#ffffff",
+            "overlay_color": "#333333",
+            "overlay_opacity": 0
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "show_blog_name": false,
+            "show_rss": false,
+            "show_featured_post": true,
+            "tags": true,
+            "author": true,
+            "show_comments": true,
+            "layout": "wrapped",
+            "image_size": "large",
+            "article_rows": 4,
+            "article_columns": 4,
+            "accent_line": "straight",
+            "accent_line_color": "#333333"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1532039480983": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            },
+            "1532039484050": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "image_mobile": "",
+                "image_position": "center-center",
+                "alignment": "center",
+                "content_width": "full-width",
+                "color_style": "white",
+                "subheading": "",
+                "title": "Welcome to Modular",
+                "text": "<p>A unique layout with a striking design</p>",
+                "cta": "Shop Now",
+                "link": "shopify://collections/all",
+                "cta_primary_btn_style": "primary",
+                "cta_2": "",
+                "link_2": "",
+                "cta_secondary_btn_style": "secondary",
+                "heading_size": "normal",
+                "text_size": "normal",
+                "overlay_color": "#333333",
+                "overlay_opacity": 0
+              }
+            }
+          },
+          "block_order": [
+            "1532039480983",
+            "1532039484050"
+          ],
+          "settings": {
+            "showNavArrows": true,
+            "show_arrow_down": false,
+            "autoplay": true,
+            "duration": 4,
+            "transition": "slide",
+            "dots_position": "center",
+            "slide_height": "five-fifty-height-hero",
+            "button_size": "normal"
+          }
+        },
+        "1532039795680": {
+          "type": "icons-row",
+          "blocks": {
+            "1532039795680-0": {
+              "type": "text",
+              "settings": {
+                "icon_name": "shop",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1532039795680-1": {
+              "type": "text",
+              "settings": {
+                "icon_name": "sync",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            },
+            "1532039795680-2": {
+              "type": "text",
+              "settings": {
+                "icon_name": "target",
+                "icon_image": "",
+                "title": "Feature",
+                "content": "Modular is a powerful Shopify theme that will set you apart from the rest with Mosaic, Image with text, and Slideshow sections."
+              }
+            }
+          },
+          "block_order": [
+            "1532039795680-0",
+            "1532039795680-1",
+            "1532039795680-2"
+          ],
+          "settings": {
+            "color_icons_bg": "#fafafa",
+            "color_icons_text": "#333333"
+          }
+        },
+        "1532039811262": {
+          "type": "mosaic",
+          "blocks": {
+            "1532039811262-0": {
+              "type": "text",
+              "settings": {
+                "title": "Featured collection",
+                "subheading": "Best Seller",
+                "text": "Showcase a two of your best products, video, a collection, or text with the blocks in this section.",
+                "button_label": "Shop now",
+                "button_link": "",
+                "button_style": "primary"
+              }
+            },
+            "1532039811262-1": {
+              "type": "product",
+              "settings": {
+                "product": ""
+              }
+            },
+            "1532039811262-2": {
+              "type": "product",
+              "settings": {
+                "product": ""
+              }
+            }
+          },
+          "block_order": [
+            "1532039811262-0",
+            "1532039811262-1",
+            "1532039811262-2"
+          ],
+          "settings": {
+            "image": "",
+            "image_text": "",
+            "image_link": "",
+            "hide_image_mobile": false,
+            "blocks_height": "default-height",
+            "blocks_layout": "offset"
+          }
+        },
+        "1583106952546": {
+          "type": "featured-video",
+          "settings": {
+            "title": "Featured video",
+            "content": "<p>Describe in a few words your special products, collection, or brand.</p>",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "logo": "",
+            "logo_max_width": 100,
+            "heading_size": "normal",
+            "text_size": "normal",
+            "image": "",
+            "image_height": "five-fifty-height-hero",
+            "style": "light",
+            "overlay_color": "#333333",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "content_for_index": [
+        "1498737500673",
+        "1532039795680",
+        "1532039811262",
+        "1532039018217",
+        "1532039073433",
+        "1532039050804",
+        "1583106952546",
+        "1532039110708"
+      ]
+    }
+  }
+}
