@@ -164,6 +164,99 @@
 
 {% render 'script' %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Estell Boutique",
+  "image": "https://estellboutiques.com/cdn/shop/files/p6HAElJA_500x.png",
+  "description": "Estell Boutique is your destination for European women’s boutique shopping in Manhattan Beach and Santa Monica. Explore Italian women’s clothing, European women’s casual clothing, best fitting linen dresses, and accessories & shoes from Italy and Europe – all curated for effortless style and modern elegance.",
+  "url": "{{ shop.url }}",
+  "logo": "https://estellboutiques.com/cdn/shop/files/p6HAElJA_500x.png",
+  "priceRange": "$$",
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "912-A Manhattan Ave",
+      "addressLocality": "Manhattan Beach",
+      "addressRegion": "CA",
+      "postalCode": "90266",
+      "addressCountry": "US"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "908 Montana Ave",
+      "addressLocality": "Santa Monica",
+      "addressRegion": "CA",
+      "postalCode": "90403",
+      "addressCountry": "US"
+    }
+  ],
+  "telephone": ["+1-310-985-7717", "+1-310-395-1506"],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "11:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "12:00",
+      "closes": "17:00"
+    }
+  ],
+  "hasMap": [
+    "https://g.co/kgs/yS1CbJn",
+    "https://g.co/kgs/JBDAx4b"
+  ],
+  "department": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Estell Boutique - Manhattan Beach",
+      "image": "https://estellboutiques.com/cdn/shop/files/p6HAElJA_500x.png",
+      "telephone": "+1-310-985-7717",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "912-A Manhattan Ave",
+        "addressLocality": "Manhattan Beach",
+        "addressRegion": "CA",
+        "postalCode": "90266",
+        "addressCountry": "US"
+      },
+      "openingHours": [
+        "Mo-Sa 11:00-18:00",
+        "Su 12:00-17:00"
+      ],
+      "priceRange": "$$",
+      "hasMap": "https://g.co/kgs/yS1CbJn"
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Estell Boutique - Santa Monica",
+      "image": "https://estellboutiques.com/cdn/shop/files/p6HAElJA_500x.png",
+      "telephone": "+1-310-395-1506",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "908 Montana Ave",
+        "addressLocality": "Santa Monica",
+        "addressRegion": "CA",
+        "postalCode": "90403",
+        "addressCountry": "US"
+      },
+      "openingHours": [
+        "Mo 12:00-17:00",
+        "Tu-Sa 11:00-18:00",
+        "Su 12:00-17:00"
+      ],
+      "priceRange": "$$",
+      "hasMap": "https://g.co/kgs/JBDAx4b"
+    }
+  ]
+}
+</script>
+
   </head>
 
   {%- capture body_class -%}{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} image-hover-light cta-fill-black{% if settings.transition_images_fade %} enable-fade-in{% endif %} no-outline{%- endcapture -%}
