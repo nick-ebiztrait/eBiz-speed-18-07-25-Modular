@@ -30,7 +30,7 @@
     <link rel="preload" href="{{ 'shop.js' | asset_url }}" as="script">   
     {%- include 'site-social-meta' -%}
      
-    <script type="application/ld+json">
+    {% comment %} <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -67,7 +67,7 @@
           "http://instagram.com/estellboutique"
         ]
       }
-    </script>
+    </script> {% endcomment %}
 
     <script type="application/ld+json">
       {
