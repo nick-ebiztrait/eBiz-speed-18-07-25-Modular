@@ -250,35 +250,12 @@
               "overlay_color": "#333333",
               "overlay_opacity": 0
             }
-          },
-          "image_7HTAWQ": {
-            "type": "image",
-            "settings": {
-              "image_position": "center-center",
-              "alignment": "center",
-              "content_width": "full-width",
-              "color_style": "white",
-              "subheading": "",
-              "title": "Welcome to Modular",
-              "text": "<p>A unique layout with a striking design</p>",
-              "cta": "Shop Now",
-              "link": "shopify://collections/all",
-              "cta_primary_btn_style": "primary",
-              "cta_2": "",
-              "link_2": "",
-              "cta_secondary_btn_style": "secondary",
-              "heading_size": "large",
-              "text_size": "normal",
-              "overlay_color": "#333333",
-              "overlay_opacity": 0
-            }
           }
         },
         "block_order": [
           "image_79C4xK",
           "49592f14-f42e-445b-baf2-3fe0fbcde794",
-          "3f5021fd-b3dd-430b-9369-3a4a74d990a3",
-          "image_7HTAWQ"
+          "3f5021fd-b3dd-430b-9369-3a4a74d990a3"
         ],
         "settings": {
           "showNavArrows": false,
