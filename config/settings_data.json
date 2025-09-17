@@ -305,7 +305,7 @@
             "type": "text",
             "settings": {
               "title": "Information",
-              "text": "<p>Monday: 12-5<br/>Tuesday-Saturday: 11-6<br/>Sunday 12-5</p><p>908 Montana Ave Santa Monica, CA 90403<br/><strong>310-395-1506<br/><br/></strong>Monday-Sunday: 11 AM - 6 PM<strong><br/></strong>912-A Manhattan Ave, Manhattan Beach, CA 90266<strong><br/>310-985-7717</strong></p>",
+              "text": "<p>Monday: 12-5<br/>Tuesday-Saturday: 11-6<br/>Sunday 12-5</p><p>908 Montana Ave Santa Monica, CA 90403<br/><strong>310-395-1506<br/><br/></strong>Monday-Saturday: 11 - 6<br/>Sunday 12-5<strong><br/></strong>912-A Manhattan Ave, Manhattan Beach, CA 90266<strong><br/>310-985-7717</strong></p>",
               "mobile_hide_block": false
             }
           },
