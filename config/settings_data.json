@@ -183,7 +183,6 @@
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
-              "image_mobile": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
               "image_position": "center-center",
               "alignment": "center",
               "content_width": "full-width",
