@@ -179,6 +179,30 @@
       "1498737500673": {
         "type": "slideshow",
         "blocks": {
+          "image_79C4xK": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
+              "image_mobile": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
+              "image_position": "center-center",
+              "alignment": "center",
+              "content_width": "full-width",
+              "color_style": "white",
+              "subheading": "",
+              "title": "",
+              "text": "",
+              "cta": "Shop Now",
+              "link": "shopify://collections/seasonal-new-arrivals",
+              "cta_primary_btn_style": "primary",
+              "cta_2": "",
+              "link_2": "",
+              "cta_secondary_btn_style": "secondary",
+              "heading_size": "large",
+              "text_size": "normal",
+              "overlay_color": "#333333",
+              "overlay_opacity": 0
+            }
+          },
           "49592f14-f42e-445b-baf2-3fe0fbcde794": {
             "type": "image",
             "disabled": true,
@@ -228,36 +252,12 @@
               "overlay_color": "#333333",
               "overlay_opacity": 0
             }
-          },
-          "image_79C4xK": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
-              "image_mobile": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
-              "image_position": "center-center",
-              "alignment": "center",
-              "content_width": "full-width",
-              "color_style": "white",
-              "subheading": "",
-              "title": "",
-              "text": "",
-              "cta": "Shop Now",
-              "link": "shopify://collections/seasonal-new-arrivals",
-              "cta_primary_btn_style": "primary",
-              "cta_2": "",
-              "link_2": "",
-              "cta_secondary_btn_style": "secondary",
-              "heading_size": "large",
-              "text_size": "normal",
-              "overlay_color": "#333333",
-              "overlay_opacity": 0
-            }
           }
         },
         "block_order": [
+          "image_79C4xK",
           "49592f14-f42e-445b-baf2-3fe0fbcde794",
-          "3f5021fd-b3dd-430b-9369-3a4a74d990a3",
-          "image_79C4xK"
+          "3f5021fd-b3dd-430b-9369-3a4a74d990a3"
         ],
         "settings": {
           "showNavArrows": false,
