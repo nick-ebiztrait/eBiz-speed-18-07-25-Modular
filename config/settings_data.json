@@ -263,7 +263,7 @@
           "showNavArrows": false,
           "show_arrow_down": true,
           "autoplay": true,
-          "duration": 4,
+          "duration": 2,
           "transition": "fade",
           "dots_position": "center",
           "slide_height": "five-fifty-height-hero",
