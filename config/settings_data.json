@@ -336,10 +336,10 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "show_popup": "enabled",
+          "show_popup": "disabled",
           "popup_logo": "shopify://shop_images/logo_4f6579e7-5ee3-4436-8387-b7a0d24f6088.jpg",
           "popup_header": "Sassy... but Classy",
-          "popup_content": "<h1><strong>GRAND<br/>OPENING</strong></h1><h5><strong>July 2025</strong></h5><p>Free Gift with Purchase in July!<strong><br/><br/></strong>912-A Manhattan Ave. <br/>Manhattan Beach, CA, 90266<br/>(310) 985-7717<br/><br/>908 Montana Ave, <br/>Santa Monica, CA, 90403<br/>(310) 395-1506</p>",
+          "popup_content": "<h1><strong>GRAND<br/>OPENING<br/><br/></strong>912-A Manhattan Ave. <br/>Manhattan Beach, CA, 90266<br/>(310) 985-7717<br/><br/>908 Montana Ave, <br/>Santa Monica, CA, 90403<br/>(310) 395-1506</h1>",
           "text_alignment": "center",
           "show_popup_newsletter": true,
           "popup_delay": 1,
