@@ -693,6 +693,7 @@
           "1589483078458-3",
           "1589483078458-4"
         ],
+        "disabled": true,
         "settings": {
           "title": "",
           "subtitle": "",
@@ -723,7 +724,7 @@
           "color": "#222222",
           "background": "#ffffff",
           "title": "Newsletter",
-          "content": "<p>Let&#x27;s keep in touch</p>"
+          "content": "<p>Let's keep in touch</p>"
         }
       },
       "1589577248928": {
