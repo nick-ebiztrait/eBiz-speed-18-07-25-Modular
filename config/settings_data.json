@@ -181,6 +181,7 @@
         "blocks": {
           "image_79C4xK": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
               "image_position": "center-center",
@@ -228,6 +229,7 @@
           },
           "3f5021fd-b3dd-430b-9369-3a4a74d990a3": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image_position": "center-center",
               "alignment": "center",
