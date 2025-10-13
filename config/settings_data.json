@@ -183,7 +183,6 @@
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/Estell_Boutique_Nextdoor_Cover_Photo.jpg",
-              "image_mobile": "shopify://shop_images/image.png",
               "image_position": "center-center",
               "alignment": "center",
               "content_width": "full-width",
@@ -206,8 +205,7 @@
           "49592f14-f42e-445b-baf2-3fe0fbcde794": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Estell-WebBanners-Spring25-BlueJacket.jpg",
-              "image_mobile": "shopify://shop_images/Estell-WebBanners-Spring25-BlueJacket.jpg",
+              "image": "shopify://shop_images/Estell-WebBanners-Fall25-NewSeasonWeb.jpg",
               "image_position": "center-center",
               "alignment": "center",
               "content_width": "full-width",
