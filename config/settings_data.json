@@ -229,8 +229,6 @@
           "3f5021fd-b3dd-430b-9369-3a4a74d990a3": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Estell-WebBanners-Spring25-GreenDress.jpg",
-              "image_mobile": "shopify://shop_images/Estell-WebBanners-Spring25-GreenDress.jpg",
               "image_position": "center-center",
               "alignment": "center",
               "content_width": "full-width",
