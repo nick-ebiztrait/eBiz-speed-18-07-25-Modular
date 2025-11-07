@@ -791,10 +791,22 @@
           "title": "@Estellboutique",
           "html": "<div class=\"tagembed-container\" style=\"width:100%;height:100%;overflow: auto;\"><div class=\"tagembed-socialwall\" data-wall-id=\"2138042\"></div></div>"
         }
+      },
+      "featured_collection_AK8WBt": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Holiday",
+          "collection1": "holiday-collection",
+          "products_layout": "grid",
+          "pro_count": 20,
+          "show_button": true,
+          "button_style": "primary"
+        }
       }
     },
     "content_for_index": [
       "1498737500673",
+      "featured_collection_AK8WBt",
       "1532039018217",
       "1532039811262",
       "1589483291884",
