@@ -210,7 +210,7 @@
               "image_mobile": "shopify://shop_images/Estell-WebBanners-Fall25-NewSeasonMobile_e577ce09-a698-4204-b71d-474c12638742.jpg",
               "image_position": "center-center",
               "alignment": "center",
-              "content_width": "full-width",
+              "content_width": "one-half",
               "color_style": "white",
               "subheading": "",
               "title": "",
