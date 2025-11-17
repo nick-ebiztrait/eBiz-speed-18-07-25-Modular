@@ -798,7 +798,7 @@
           "title": "Holiday",
           "collection1": "holiday-collection",
           "products_layout": "grid",
-          "pro_count": 20,
+          "pro_count": 8,
           "show_button": true,
           "button_style": "primary"
         }
