@@ -43,7 +43,7 @@
 									<a class="cart-product-thumb" href="{{ collection_url }}{{ item.url }}">
 										{%- assign image = item.image -%}
 								        <div class="cart-product-thumb-img lazyload fade-in"
-								           	data-bgset="{% include 'bgset', image %}"
+								           	data-bgset="{% include 'bgset' %}"
 											data-sizes="auto"
 											data-parent-fit="contain"></div>
 								        <noscript>
@@ -175,3 +175,13 @@
 	</div>
 </div>
 {%- endunless -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'bgset', image %}"
+  to: "{% include 'bgset' %}"
+  position: 1656..1677
+{% endcomment %}

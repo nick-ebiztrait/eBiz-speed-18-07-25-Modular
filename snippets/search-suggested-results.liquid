@@ -42,7 +42,7 @@
 					{%- assign image = collection.image -%}
 					<a href="{{ collection.url }}" title="{{ collection.title }}" tabindex="0" 
 						class="suggested-result__collection-image lazyload fade-in"
-						data-bgset="{% include 'bgset', image %}"
+						data-bgset="{% include 'bgset' %}"
 						data-sizes="auto"
 						data-parent-fit="cover">
 						<div class="image-overlay">
@@ -104,4 +104,13 @@
 			</div>
 		{%- endif -%}
 	</div>
-{%- endif -%}
+{%- endif -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'bgset', image %}"
+  to: "{% include 'bgset' %}"
+  position: 1920..1941
+{%- endcomment -%}

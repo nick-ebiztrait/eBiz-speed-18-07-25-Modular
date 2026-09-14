@@ -177,7 +177,7 @@
 					<div class="slide-background-container {% if mobile_image != blank %}slide-background--has-mobile{% endif %}">
 						{%- if image != blank -%}
 							<div class="slide-background slide-background--desktop slide-background--{{ block.settings.image_position }} {% if forloop.index == 1 %}lazyload {% endif %}fade-in"
-								data-bgset="{% include 'bgset', image %}"
+								data-bgset="{% include 'bgset' %}"
 								data-sizes="auto"
 								data-parent-fit="cover"
 							>
@@ -199,7 +199,7 @@
 						{%- if image_mobile != blank -%}
 							{%- assign image = block.settings.image_mobile -%}
 							<div class="slide-background slide-background--mobile slide-background--{{ block.settings.image_position }} {% if forloop.index == 1 %}lazyload {% endif %}fade-in"
-								data-bgset="{% include 'bgset', image %}"
+								data-bgset="{% include 'bgset' %}"
 								data-sizes="auto"
 								data-parent-fit="cover"
 							>
@@ -220,4 +220,16 @@
 
 {%- if show_arrow_down -%}
 	<a href="#" class="hero-scroll-down js-scroll-down" title="{{ 'slideshow.scroll_down' | t }}">{% include 'icon-arrow-slider' %}</a>
-{%- endif -%}
+{%- endif -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'bgset', image %}"
+  to: "{% include 'bgset' %}"
+  position: 8348..8369
+- from: "{% include 'bgset', image %}"
+  to: "{% include 'bgset' %}"
+  position: 9362..9383
+{%- endcomment -%}

@@ -1,7 +1,7 @@
 <div class="split-hero__box {% if image_mobile != blank %}split-hero__box--has-mobile{% endif %}">
 	{%- unless image == blank -%}
 		<div class="split-hero__image split-hero__image--desktop split-hero__image--{{ image_position }} lazyload fade-in"
-			data-bgset="{% include 'bgset', image %}"
+			data-bgset="{% include 'bgset' %}"
 			data-sizes="auto"
 			data-parent-fit="cover"
 		>
@@ -20,7 +20,7 @@
 	{%- unless image_mobile == blank -%}
 		{%- assign image = image_mobile -%}
 		<div class="split-hero__image split-hero__image--mobile split-hero__image--{{ image_position }} lazyload fade-in"
-			data-bgset="{% include 'bgset', image %}"
+			data-bgset="{% include 'bgset' %}"
 			data-sizes="auto"
 			data-parent-fit="cover"
 		>
@@ -31,4 +31,16 @@
 			></div>
 		</noscript>
 	{%- endunless -%}
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'bgset', image %}"
+  to: "{% include 'bgset' %}"
+  position: 262..283
+- from: "{% include 'bgset', image %}"
+  to: "{% include 'bgset' %}"
+  position: 953..974
+{%- endcomment -%}
